@@ -4,10 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 body {
     font-size: 1.1em;  
+    font-family: "Rubik", sans-serif;
 }
  header, main, footer {
      max-width: 700px;
@@ -22,13 +24,27 @@ body {
      display: grid;
      grid-template-columns: 200 px 1fr;
      align-items: center;
+     border-radius: 14px;;
  }
 
  header img {
-     width: 100%;
+     width: 30%;
      height: auto;
+     border-radius: 8px;
  }
 
+ main {
+     padding: 3em;
+ }
+
+ hr {
+     margin-top: 1em;
+     margin-bottom: 1em;
+ }
+
+ footer {
+    align-items: center;
+ }
 /* body {
   font-family: "Rubik", sans-serif;
   font-size: 1.1em;
