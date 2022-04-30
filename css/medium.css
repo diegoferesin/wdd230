@@ -1,0 +1,18 @@
+@media only screen and (min-width: 32.5em) {
+  body {
+    font-size: 1.1em;
+  }
+
+  footer {
+    font-weight: 600;
+  }
+
+  header img {
+    width: 70%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}

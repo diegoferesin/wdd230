@@ -6,7 +6,7 @@
 }
 
 body {
-  font-size: 1.1em;
+  font-size: 0.9em;
   font-family: "Rubik", sans-serif;
 }
 header,
@@ -34,8 +34,7 @@ header {
 }
 
 header img {
-  width: 70%;
-  height: auto;
+  height: 80px;
 }
 
 main {
@@ -58,7 +57,7 @@ footer {
   display: flex;
   justify-content: space-around;
   color: white;
-  font-weight: 600;
+  font-weight: 300;
   box-shadow: 5px 5px 0px rgb(21 18 243);
 }
 
@@ -68,34 +67,14 @@ footer p {
 
 h2 {
   color: #21ecaf;
-
   text-align: center;
 }
+
+h1{
+  font-size: 1.5em;
+}
+
 ul {
   padding: 3em;
 }
-/* body {
-  font-family: "Rubik", sans-serif;
-  font-size: 1.1em;
-  color: white;
-  background-image: linear-gradient(
-    -225deg,
-    rgb(95, 234, 76) 0%,
-    rgb(33, 236, 175) 48%,
-    rgb(21, 18, 243) 100%
-  );
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  max-width: 960px;
-  margin: 0 auto;
-  border: 1px solid white;
-  border-radius: 14px;
-  padding: 1em;
-}
 
-img {
-    max-width: 100%;
-    display: block;
-    border-radius: 14px;
-  } */
