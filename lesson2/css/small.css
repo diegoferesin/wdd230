@@ -54,6 +54,7 @@ footer {
   color: white;
   font-weight: 300;
   box-shadow: 5px 5px 0px rgb(21 18 243);
+  margin-top: 1em;
 }
 
 footer p, h1, h2 {
@@ -105,7 +106,10 @@ div p {
 
 main div div {
   border: 1px solid rgba(255, 0, 184, 1);
+  margin-top: 1em;
+  box-shadow: 5px 5px 0px rgb(21 18 243);
 }
+
 img {
   margin-top: 1em;
 }
