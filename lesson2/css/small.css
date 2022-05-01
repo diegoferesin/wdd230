@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+body {
+  font-size: 0.9em;
+  font-family: "Rubik", sans-serif;
+}
+
+header,
+main,
+footer {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+header {
+  margin: 1rem auto;
+  border: 1px solid #1512f3;
+  padding: 0.5rem;
+  background-image: linear-gradient(
+    -225deg,
+    rgba(255, 0, 184, 1) 0%,
+    rgba(178, 11, 217, 0.9710477941176471) 51%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  box-shadow: 5px 5px 0px rgb(21 18 243);
+}
+
+main {
+  padding: 3em;
+  text-align: center;
+}
+
+hr {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+footer {
+  background-image: linear-gradient(
+    -225deg,
+    rgba(255, 0, 184, 1) 0%,
+    rgba(178, 11, 217, 0.9710477941176471) 51%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: 1px solid #1512f3;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-weight: 300;
+  box-shadow: 5px 5px 0px rgb(21 18 243);
+}
+
+footer p, h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 200;
+  text-align: center;
+}
+
+h3,
+p {
+  padding: 1em;
+}
+
+h3,
+h4 {
+  background-image: linear-gradient(
+    -225deg,
+    rgba(255, 0, 184, 1) 0%,
+    rgba(178, 11, 217, 0.9) 51%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  text-align: center;
+}
+
+ul {
+  padding: 3em;
+}
+
+h4 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+div p {
+  text-align: left;
+  color: rgba(178, 11, 217, 0.9);
+}
+
+main div div {
+  border: 1px solid rgba(255, 0, 184, 1);
+}
+img {
+  margin-top: 1em;
+}
+
+footer a {
+  color: white;
+}
+
+.addPadding {
+  padding-bottom: 6.7em;
+}
+
+.addPadding2 {
+  padding-bottom: 5.4em;
+}
