@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 800px) {
   body {
     font-size: 1.1em;
   }
@@ -6,7 +6,7 @@
   header,
   main,
   footer {
-    max-width: 1400px;
+    max-width: 700px;
   }
 
   footer {
@@ -27,8 +27,23 @@
     align-items: center;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 30px;
   }
+
+  .proximity-law {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .alignment-law {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .repetition-law {
+    grid-area: 2 / 1 / 3 / 3;
+  }
+
+  .addPadding {
+    padding-bottom: 11em;
+  }
+
 }

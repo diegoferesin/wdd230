@@ -57,7 +57,9 @@ footer {
   margin-top: 1em;
 }
 
-footer p, h1, h2 {
+footer p,
+h1,
+h2 {
   text-align: center;
 }
 
@@ -119,9 +121,9 @@ footer a {
 }
 
 .addPadding {
-  padding-bottom: 6.7em;
+  padding-bottom: 10em;
 }
 
 .addPadding2 {
-  padding-bottom: 5.4em;
+  padding-bottom: 8em;
 }
