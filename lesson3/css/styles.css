@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1em;
+  color: white;
+  background-image: linear-gradient(
+    -255deg,
+    rgba(21, 18, 243, 1) 0%,
+    rgba(11, 176, 217, 0.9) 49%,
+    rgba(216, 0, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 1em;
+}
+
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+  border: 1px solid white;
+}
+
+main {
+  margin: 1em;
+}
+
+h3,
+h2,
+h1 {
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+  font-family: Playfair Display;
+  border: 1px solid white;
+  color: white;
+  box-shadow: 5px 5px 0px rgb(216, 0, 255);
+}
+
+p {
+  padding: 3em;
+}
+
+footer {
+  text-align: center;
+}
+
+/* section p {
+  text-align: center;
+} */
+
+nav {
+  margin: 0 auto;
+  max-width: 780px;
+}
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  /* background: linear-gradient(90deg, transparent, yellow, transparent) top /
+    var(--d, 0) 10px no-repeat; */
+  transition: 0.5s;
+  border: 1px solid white;
+}
+
+a {
+  color: white;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+
+.colors th {
+  background-color: #999;
+}
+
+.colors td {
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: #1515f2;
+}
+
+.secondary {
+  background-color: #5dea4e;
+}
+
+.accent1 {
+  background-color: #ffffff;
+}
+
+.accent2 {
+  background-color: #22ecad;
+}
+
+.paragraph {
+  font-family: "Inter", sans-serif;
+}
+
+p.colored {
+  background-color: rgb(11, 176, 217);
+  color: white;
+}
+
+@media only screen and (min-width: 37.5em) {
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    flex: 1 1 auto;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+
+  nav a:hover {
+    /* 	background-color: #bbb;
+	color: #36454f; */
+    --d: 75%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  nav a {
+    font-size: 1.1rem;
+  }
+}
