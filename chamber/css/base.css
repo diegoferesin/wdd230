@@ -1,0 +1,183 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+h3 {
+  font-family: Playfair Display;
+  color: #555;
+}
+
+body {
+  font-family: Inter;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 40px;
+  height: 40px;
+}
+
+nav button {
+  margin: 0.2rem 2vw;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555;
+}
+
+nav {
+  background-color: #eee;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+main {
+  padding: 1em;
+}
+
+section {
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.join {
+  display: none;
+}
+
+.spotlight3 {
+  display: none;
+}
+
+.parent {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 11px;
+  justify-items: center; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 11px;
+  justify-items: left;
+}
+
+.site-name,
+.event,
+.weather,
+.new-release,
+.spotlight {
+  width: 100%;
+}
+
+.site-name {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.event {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.weather {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.new-release {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.spotlight {
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 11px;
+  /* align-content: center; */
+}
+
+footer img {
+  width: 100px;
+  height: 100px;
+  grid-area: 1 / 1 / 2 / 2; 
+}
+
+footer h3 {
+    grid-area: 2 / 1 / 3 / 2; 
+}
+
+.div2 { grid-area: 2 / 1 / 3 / 2; }
+.div3 { grid-area: 3 / 1 / 4 / 2; }
+.div4 { grid-area: 4 / 1 / 5 / 2; }
+.div5 { grid-area: 5 / 1 / 6 / 2; }
+.div6 { grid-area: 6 / 1 / 7 / 2; }
+.div7 { grid-area: 7 / 1 / 8 / 2; }
+.div8 { grid-area: 8 / 1 / 9 / 2; }
+.div9 { grid-area: 9 / 1 / 10 / 2; }
+.div10 { grid-area: 10 / 1 / 11 / 2; }
