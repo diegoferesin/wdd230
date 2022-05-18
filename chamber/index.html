@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Argentine Chamber of Commerce Project - BYU-Idaho WDD 230 course"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/base.css" />
@@ -18,48 +22,66 @@
   </head>
   <body>
     <header>
-      <img src="images/logo.jpeg" alt="logo" />
-      <h3>Argentine <br />Chamber of Commerce</h3>
-      <div class="social">
-        <a href="https://www.facebook.com/" target="_blank"
-          ><img src="images/facebook.png" alt="Facebook logo"
-        /></a>
-        <a href="https://www.linkedin.com/" target="_blank"
-          ><img src="images/linkedin.png" alt="Linkedin logo"
-        /></a>
+      <div>
+        <div class="logo">
+          <img
+            src="images/logo.jpeg"
+            alt="Argentine Chamber of Commerce Logo"
+          />
+          <section class="headings">
+            <h1>Argentine</h1>
+            <h2>Chamber of Commerce</h2>
+          </section>
+        </div>
+        <nav>
+          <ul class="primary-nav">
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img src="images/facebook.png" alt="Facebook logo"
+          /></a>
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><img src="images/linkedin.png" alt="Linkedin logo"
+          /></a>
+        </div>
+        <button id="hamburger-button">
+          <span>&#9776;</span><span>X</span>
+        </button>
       </div>
-      <nav>
-        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
-          <li><a href="#">Home</a></li>
-          <li class="active"><a href="#">Products</a></li>
-          <li><a href="#">Location</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="currentDate">Monday, 22 November 2021</div>
+      <ul id="hamburger-nav">
+        <li><a href="#">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p class="current-date"></p>
     </header>
-    <main class="parent">
+    <main>
+      <section class="action-call">
+        <h3>Hero with site name and call to action</h3>
+      </section>
       <section class="event">
         <h3>Event</h3>
       </section>
       <section class="weather">
         <h3>Weather</h3>
       </section>
+      <section class="news">
+        <h3>News release</h3>
+      </section>
       <section class="join">
         <h3>Join</h3>
       </section>
-      <section class="site-name">
-        <h3>Hero with site name and call to action</h3>
-      </section>
-      <section class="new-release">
-        <h3>New Release</h3>
-      </section>
-      <section class="spotlight">
-        <div class="spotlight1">
+      <section class="spotlights">
+        <div>
           <h3>Spotlight 1</h3>
         </div>
-        <div class="spotlight2">
+        <div>
           <h3>Spotlight 2</h3>
         </div>
         <div class="spotlight3">
@@ -68,14 +90,43 @@
       </section>
     </main>
     <footer>
-      <img src="images/logo.jpeg" alt="logo" />
-      <h3>Argentine Chamber of Commerce</h3>
-      <p>info@acoc.com</p>
-      <p>+5411 - 4547 - 4645</p>
-      <a href="">📍 Location Map</a>
-      <hr />
-      <p>&copy; 2022 .:|:. .:|:. Argentina</p>
-      <p>Last Updated <span id="currentdate"></span></p>
+      <div class="general-info">
+        <div class="footer-logo">
+          <img
+            src="images/logo.jpeg"
+            alt="Argentine Chamber of CommercemLogo"
+          />
+          <section class="footer-headings">
+            <h4>Argentine Chamber of Commerce</h4>
+            <p>Av. Leandro N. Alem 36 - C1003AAN</p>
+            <p>Buenos Aires - Argentina</p>
+          </section>
+        </div>
+        <div class="footer-info">
+          <p>info@acoc.com</p>
+          <p>+5411 - 4547 - 4645</p>
+          <a
+            href="https://www.google.com.ar/maps/dir//C%C3%A1mara+Argentina+de+Comercio,+1003,+Av.+Leandro+N.+Alem+36,+C1003AAN+CABA/@-34.6152008,-58.4056832,14z/data=!4m9!4m8!1m0!1m5!1m1!1s0x95a3352cde5aaa3b:0x8f92d6a50eb9ec0!2m2!1d-58.3704212!2d-34.6066422!3e0"
+            target="_blank"
+            >📍 Location Map</a
+          >
+        </div>
+      </div>
+      <div class="small-copyright">
+        <p>
+          &copy; <span id="small-copyright-year"></span> Argentine Chamber of
+          Commerce Project
+        </p>
+        <p>Diego Feresin</p>
+        <p>WDD 230 Project</p>
+        <p>Last Updated: <span id="small-last-updated"></span></p>
+      </div>
+      <p class="medium-copyright">
+        &copy; <span id="medium-copyright-year"></span> Cambridge UK Chamber |
+        Diego Feresin | WDD 230 Project | Last Updated:
+        <span id="medium-last-updated"></span>
+      </p>
     </footer>
+    <script src="js/index.js"></script>
   </body>
 </html>
