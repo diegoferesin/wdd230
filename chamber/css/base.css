@@ -5,7 +5,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4, 
+h5 {
   font-family: "Playfair Display", sans-serif;
   margin: 0;
 }
@@ -20,9 +21,13 @@ button {
 }
 
 main {
-  max-width: 960px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 1rem;
+  background-color: #cad5e2;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-rows: auto 12rem auto auto 1fr;
 }
 
 nav ul li a,
@@ -58,18 +63,19 @@ nav ul,
   border-top: 1px solid #376996;
 }
 
-main {
+/* main {
   background-color: #cad5e2;
   display: grid;
   gap: 0.5rem;
   grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
-}
+} */
 
 header,
 footer {
   background-color: #1d3461;
   width: 100%;
   padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 h1,
@@ -93,6 +99,10 @@ h1 {
 h2 {
   font-size: 0.8em;
   margin-bottom: 1rem;
+}
+
+h3 {
+  margin-bottom: 0.75rem;
 }
 
 .footer-info a:visited {
@@ -139,10 +149,11 @@ header button:hover {
 }
 
 main section,
-main section div {
+main section div.spotlight {
   background-color: rgba(0, 0, 0, 0.1);
-  padding: 1rem;
+  padding: 0.75rem;
   border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 main section div {
@@ -170,11 +181,6 @@ section h3 {
 
 #hamburger-nav.open {
   display: block;
-}
-
-.spotlight3,
-.join {
-  display: none;
 }
 
 #hamburger-button span:nth-child(1) {
@@ -261,4 +267,136 @@ section h3 {
 
 .footer-logo img {
   width: 12.5rem;
+}
+
+main section div.spotlight img {
+  width: 40%;
+  margin-top: -0.5rem;
+}
+
+main section div.spotlight p {
+  font-style: italic;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+main section div.spotlight p.spotlight-contact {
+  font-size: 0.9rem;
+  font-style: normal;
+  border-top: 1px solid black;
+  margin: 0;
+}
+
+#meet-greet-message {
+  display: none;
+  text-align: center;
+  padding: 1rem;
+  background-color: #1F487E;
+  border-bottom: 1px solid #376996;
+}
+
+.action-call {
+  position: relative;
+  padding: 0;
+}
+
+.action-call h3, .action-call a {
+  position: absolute;
+}
+
+.action-call h3 {
+  top: 1rem;
+  left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  background-color: #1F487E;
+  outline: 1px solid #376996;
+  color: white;
+}
+
+.action-call a {
+  bottom: 1rem;
+right: 1rem;
+  margin-left: 1rem;
+}
+
+.action-call a, .join a {
+  display: block;
+  padding: 1rem;
+  background-color: #1F487E;
+  outline: 1px solid #376996;
+  color: white;
+  text-decoration: none;
+}
+
+.action-call a:hover, .join a:hover {
+  background-color: #376996;
+}
+
+.action-call img {
+  width: 100%;
+  height: 100%;
+}
+
+.join a h3 {
+  margin: 0;
+}
+
+.join div {
+  margin-top: 0.75rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.event p:nth-child(2) {
+  font-weight: bold;
+  margin-top: -2rem;
+}
+
+.event a {
+  color: #376996;
+}
+
+.event a:visited {
+  color: #1D3461;
+}
+
+.weather {
+  padding-right: 1.5rem;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.weather img {
+  width: 35%;
+}
+
+.weather-sun {
+  text-align: right;
+  font-size: 1.5rem;
+  line-height: 2.75rem;
+  margin-top: 0.5rem;
+}
+
+.weather-temp {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.weather-wind {
+  padding-top: 0.5rem;
+  border-top: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

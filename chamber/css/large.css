@@ -1,7 +1,7 @@
 @media (min-width: 64em) {
   main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto;
   }
 
   button#hamburger-button {
@@ -28,8 +28,9 @@
     margin-right: 2rem;
   }
 
-  main section div {
+  main section div.spotlight {
     width: auto;
+    height: 100%;
   }
 
   #hamburger-nav.open {

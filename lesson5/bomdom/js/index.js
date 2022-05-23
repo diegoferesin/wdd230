@@ -14,6 +14,7 @@ buttonElem.addEventListener('click', function () {
 
         listItem.innerHTML = inputValue;
         deleteButton.textContent = '❌';
+        deleteButton.setAttribute('aria-label', 'Remove chapter');
 
         listItem.appendChild(deleteButton);
         listElem.appendChild(listItem);

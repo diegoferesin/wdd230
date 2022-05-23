@@ -1,7 +1,7 @@
 @media (min-width: 35rem) {
   main {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto 1fr 10rem auto;
   }
 
   h1 {
@@ -17,7 +17,8 @@
     flex-direction: row;
   }
 
-  main section div {
+  main section div.spotlight {
+    height: auto;
     width: 100%;
   }
 
@@ -66,7 +67,9 @@
   }
 
   .join {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     grid-column: 1 / 4;
     grid-row: 4 / 5;
   }
@@ -77,6 +80,7 @@
   }
 
   .weather {
+    margin: 0;
     grid-column: 3 / 4;
     grid-row: 5 / 6;
   }
