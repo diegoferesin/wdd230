@@ -42,4 +42,15 @@ img[data-src] {
 
 a {
     margin-bottom: 3em;
+    padding: 1em;
+    border: 1px solid darkgreen;
+    box-shadow: 5px 5px 0px darkgreen;
+    font-weight: 700;
+}
+
+a:hover {
+    color: white;
+    background-color: darkgreen;
+    border: 1px solid white;
+    box-shadow: 5px 5px 0px rgb(142, 168, 103);
 }
