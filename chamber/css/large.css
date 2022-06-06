@@ -1,7 +1,7 @@
 @media (min-width: 64em) {
   main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr auto;
+    /* grid-template-rows: 1fr 1fr auto; */
   }
 
   button#hamburger-button {

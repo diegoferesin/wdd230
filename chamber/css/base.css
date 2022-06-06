@@ -5,7 +5,7 @@ body {
 h1,
 h2,
 h3,
-h4, 
+h4,
 h5 {
   font-family: "Playfair Display", sans-serif;
   margin: 0;
@@ -27,7 +27,7 @@ main {
   background-color: #cad5e2;
   display: grid;
   gap: 0.5rem;
-  grid-template-rows: auto 12rem auto auto 1fr;
+  /* grid-template-rows: auto 12rem auto auto 1fr; */
 }
 
 nav ul li a,
@@ -291,7 +291,7 @@ main section div.spotlight p.spotlight-contact {
   display: none;
   text-align: center;
   padding: 1rem;
-  background-color: #1F487E;
+  background-color: #1f487e;
   border-bottom: 1px solid #376996;
 }
 
@@ -300,7 +300,8 @@ main section div.spotlight p.spotlight-contact {
   padding: 0;
 }
 
-.action-call h3, .action-call a {
+.action-call h3,
+.action-call a {
   position: absolute;
 }
 
@@ -309,27 +310,29 @@ main section div.spotlight p.spotlight-contact {
   left: 1rem;
   margin-right: 1rem;
   padding: 1rem;
-  background-color: #1F487E;
+  background-color: #1f487e;
   outline: 1px solid #376996;
   color: white;
 }
 
 .action-call a {
   bottom: 1rem;
-right: 1rem;
+  right: 1rem;
   margin-left: 1rem;
 }
 
-.action-call a, .join a {
+.action-call a,
+.join a {
   display: block;
   padding: 1rem;
-  background-color: #1F487E;
+  background-color: #1f487e;
   outline: 1px solid #376996;
   color: white;
   text-decoration: none;
 }
 
-.action-call a:hover, .join a:hover {
+.action-call a:hover,
+.join a:hover {
   background-color: #376996;
 }
 
@@ -366,7 +369,7 @@ right: 1rem;
 }
 
 .event a:visited {
-  color: #1D3461;
+  color: #1d3461;
 }
 
 .weather {
@@ -399,4 +402,82 @@ right: 1rem;
   border-top: 1px solid black;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+/* ######################################################## */
+/*                      DISCOVER PAGE                       */
+/* ######################################################## */
+
+.discover-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: repeat(6, 1fr); */
+  grid-gap: 30px;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+  text-align: left;
+}
+
+.div7,
+.div8,
+.div9,
+.div10,
+.div11,
+.div12 {
+  text-align: center;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 3;
+  width: 650px;
+}
+.div2 {
+  grid-area: 2 / 1 / 3 / 3;
+}
+.div3 {
+  grid-area: 3 / 1 / 4 / 3;
+}
+.div4 {
+  grid-area: 4 / 1 / 5 / 3;
+}
+.div5 {
+  grid-area: 5 / 1 / 6 / 3;
+}
+.div6 {
+  grid-area: 6 / 1 / 7 / 3;
+}
+.div7 {
+  grid-area: 1 / 3 / 2 / 4;
+  width: 350px;
+}
+.div8 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.div9 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+.div10 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+.div11 {
+  grid-area: 5 / 3 / 6 / 4;
+}
+.div12 {
+  grid-area: 6 / 3 / 7 / 4;
+}
+
+.FlexContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  overflow: auto;
+  flex-direction: column;
 }
