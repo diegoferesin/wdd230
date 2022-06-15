@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Argentine Chamber of Commerce Project - BYU-Idaho WDD 230 course"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Join - Chamber of Commerce Project</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="images/logo.jpeg"
+              alt="Argentine Chamber of Commerce Logo"
+            />
+          </a>
+          <section class="headings">
+            <h1>Argentine</h1>
+            <h2>Chamber of Commerce</h2>
+          </section>
+        </div>
+        <nav>
+          <ul class="primary-nav">
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a class="active" href="join.html">Join</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img src="images/facebook.png" alt="Facebook logo"
+          /></a>
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><img src="images/linkedin.png" alt="Linkedin logo"
+          /></a>
+        </div>
+        <button id="hamburger-button">
+          <span>&#9776;</span><span>X</span>
+        </button>
+      </div>
+      <ul id="hamburger-nav">
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a class="active" href="join.html">Join</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p class="current-date"></p>
+    </header>
+
+    <main class="mainJoin">
+      <h1 class="joinH1">Argentine Chamber of Commerce Application</h1>
+      <div class="formGrid">
+        <form method="get" action="thankyou.html">
+          <div class="formContainer">
+            <fieldset>
+              <legend class="legend">Applicant Information</legend>
+              <label
+                >First Names<span class="redReminder">*</span>
+                <input type="text" name="fname" required
+              /></label>
+              <label
+                >Last Name<span class="redReminder">*</span>
+                <input type="text" name="lname" required
+              /></label>
+              <label
+                >Email<span class="redReminder">*</span>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="youremail@youremail.com"
+                  required
+              /></label>
+              <label
+                >Cell Phone Number<span class="redReminder">*</span>
+                <input type="tel" name="phone" required
+              /></label>
+            </fieldset>
+            <fieldset>
+              <legend class="legend">Business Type and Position</legend>
+              <label>
+                Business Name<span class="redReminder">*</span>
+                <input type="text" name="bname" required
+              /></label>
+              <label
+                >Business Position Title <br />(Minimum of 7 characters,
+                letters, spaces, and hyphens only.)<input
+                  type="text"
+                  pattern="[a-zA-Z\s\-]{7,}"
+                  name="title"
+              /></label>
+              <label for="content">Business Description</label>
+              <textarea name="textarea" id="content"></textarea>
+              <input type="hidden" id="date" name="date" value="CurrentTime" />
+              <input type="hidden" id="time" name="time" value="CurrentDate" />
+            </fieldset>
+
+            <fieldset>
+              <legend class="legend">Membership Levels</legend>
+              <label class="subs" id="1"
+                ><input
+                  for="1"
+                  class="no100"
+                  type="radio"
+                  name="NP Membership"
+                />
+                <span> NP Member (Non-Profit)</span></label
+              >
+              <label class="subs" id="2"
+                ><input
+                  for="2"
+                  class="no100"
+                  type="radio"
+                  name="Bronze Membership"
+                />
+                <span> Bronze Member</span></label
+              >
+              <label class="subs" id="3"
+                ><input
+                  for="3"
+                  class="no100"
+                  type="radio"
+                  name="Silver Membership"
+                />
+                <span> Silver Member</span></label
+              >
+              <label class="subs" id="4"
+                ><input
+                  for="4"
+                  class="no100"
+                  type="radio"
+                  name="Gold Membership"
+                />
+                <span> Gold Member</span></label
+              >
+            </fieldset>
+            <input
+              type="submit"
+              value="Join Chamber"
+              name="button"
+              class="mySubmit"
+            />
+          </div>
+        </form>
+
+        <section class="memberships">
+          <div>
+            <h2>Membership Benefits</h2>
+            <h3>NP Member</h3>
+            <p>
+              NP Membership is for non profit organizations and there is no fee.
+            </p>
+          </div>
+          <div>
+            <h2>Bronze Membership</h2>
+            <h3>$480 (Annual Investment)</h3>
+            <p>Free postings on the Chamber Job Zone.</p>
+            <p>
+              Join leads and business development groups as well as other
+              Chamber councils and committees.
+            </p>
+            <p>
+              Weekly updates where we share information about new chamber
+              programs, initiatives, festivals, networking events and advocacy
+              efforts.
+            </p>
+            <p>Access to free and confidential business counseling.</p>
+          </div>
+
+          <div>
+            <h2>Silver Membership</h2>
+            <h3>$980 (Annual Investment)</h3>
+            <p>To include all benefits of Business Builder as well as…</p>
+            <p>You get a second location or a second business membership.</p>
+            <p>
+              Mini Campaign: We will create a social media campaign for your
+              business or organization. Pictures & copy will promote you, your
+              product or service to the community via 4 unique social media
+              posts over 2 weeks.
+            </p>
+            <p>
+              Premier Ribbon Cutting: Photos, video, social media & email
+              promotion to 5,000 member contacts.
+            </p>
+          </div>
+
+          <div>
+            <h2>Gold Membership</h2>
+            <h3>$2,500 (Annual Investment)</h3>
+            <p>
+              Includes all the benifits of our Bronze and Silver members and
+              more...
+            </p>
+            <p>
+              For more information about our Gold Membership please contact
+              membership@acoc.com.ar
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="general-info">
+        <div class="footer-logo">
+          <img
+            src="images/logo.jpeg"
+            alt="Argentine Chamber of CommercemLogo"
+          />
+          <section class="footer-headings">
+            <h4>Argentine Chamber of Commerce</h4>
+            <p>Av. Leandro N. Alem 36 - C1003AAN</p>
+            <p>Buenos Aires - Argentina</p>
+          </section>
+        </div>
+        <div class="footer-info">
+          <p>info@acoc.com</p>
+          <p>+5411 - 4547 - 4645</p>
+          <a
+            href="https://www.google.com.ar/maps/dir//C%C3%A1mara+Argentina+de+Comercio,+1003,+Av.+Leandro+N.+Alem+36,+C1003AAN+CABA/@-34.6152008,-58.4056832,14z/data=!4m9!4m8!1m0!1m5!1m1!1s0x95a3352cde5aaa3b:0x8f92d6a50eb9ec0!2m2!1d-58.3704212!2d-34.6066422!3e0"
+            target="_blank"
+            >📍 Location Map</a
+          >
+        </div>
+      </div>
+      <div class="small-copyright">
+        <p>
+          &copy; <span id="small-copyright-year"></span> Argentine Chamber of
+          Commerce Project
+        </p>
+        <p>Diego Feresin</p>
+        <p>WDD 230 Project</p>
+        <p>Last Updated: <span id="small-last-updated"></span></p>
+      </div>
+      <p class="medium-copyright">
+        &copy; <span id="medium-copyright-year"></span> Cambridge UK Chamber |
+        Diego Feresin | WDD 230 Project | Last Updated:
+        <span id="medium-last-updated"></span>
+      </p>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -84,4 +84,32 @@
     grid-column: 3 / 4;
     grid-row: 5 / 6;
   }
+
+  #joinapp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  form {
+    grid-column: 1/2;
+  }
+
+  #memberlevels {
+    grid-column: 2/3;
+  }
+
+  .legend {
+    padding: 0.90em;
+    margin: 0.90em;
+    border: 2px solid #376996;
+  }
+
+  textarea {
+    width: 83%;
+  }
+
+  .mainJoin {
+    max-width: 600px;
+  }
+
 }

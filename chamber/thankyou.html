@@ -3,13 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="description"
-      content="Argentine Chamber of Commerce Project - BYU-Idaho WDD 230 course"
-    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/normalize.css" />
+
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
@@ -19,13 +15,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Chamber of Commerce Project</title>
+    <title>Join - Chamber of Commerce Project</title>
   </head>
+
   <body>
     <header>
-      <p id="meet-greet-message">
-        🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
-      </p>
       <div>
         <div class="logo">
           <a href="index.html">
@@ -43,7 +37,7 @@
           <ul class="primary-nav">
             <li><a href="discover.html">Discover</a></li>
             <li><a href="#">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
+            <li><a class="active" href="join.html">Join</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
@@ -60,93 +54,26 @@
         </button>
       </div>
       <ul id="hamburger-nav">
-        <li><a href="#">Discover</a></li>
+        <li><a href="discover.html">Discover</a></li>
         <li><a href="#">Directory</a></li>
-        <li><a href="join.html">Join</a></li>
+        <li><a class="active" href="join.html">Join</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
       <p class="current-date"></p>
     </header>
-    <main class="sections mainHome">
-      <section class="action-call">
-        <h3>Welcome to the Chamber of Commerce</h3>
-        <img src="https://via.placeholder.com/500X213" alt="Action call" />
-        <a href="join.html">Join the chamber</a>
-      </section>
-      <section class="event">
-        <h3>Ribbon Cutting</h3>
-        <p>🦄 The Unicorn Palace</p>
-        <p>
-          Join us for the grand opening of The Unicorn Palace, Thursday aat 1:00
-          p.m.
-          <a href="#">more info ...</a>
+    <!-- CONTENT HERE -->
+    <main>
+      <div class="tyContainer">
+        <h1 class="thankyouH1">Thank you for your Application</h1>
+        <p class="thankyouP">
+          Your Argentine Chamber of Commerce application has been received. <br />We
+          will get back to you within a week with more information about how to
+          get started.
         </p>
-      </section>
-      <section class="weather">
-        <h3>Weather</h3>
-        <div class="weather-temp">
-          <img src="https://via.placeholder.com/75x75" alt="Weather image" />
-          <h4>33°C</h4>
-        </div>
-        <h5 class="weather-sun">Sunny</h5>
-        <div class="weather-wind">
-          <p>Wind Speed:</p>
-          <p>2.5 km/h</p>
-          <p>Wind Chill:</p>
-          <p>N/A</p>
-        </div>
-      </section>
-      <section class="news">
-        <h3>News release</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cum
-          omnis dolores. Dolor ex, mollitia enim illum eum, alias reprehenderit
-          unde ducimus quis nam possimus corporis iste? Ut, delectus officia.
-        </p>
-      </section>
-      <section class="join">
-        <a href="">
-          <h3>Join Us!</h3>
-        </a>
-        <div>
-          <p>
-            Discover how to join the chamber of commerce and how it will benefit
-            your organization
-          </p>
-        </div>
-      </section>
-      <section class="spotlights">
-        <div class="spotlight">
-          <h3>Thankful Transport</h3>
-          <img
-            src="https://via.placeholder.com/150x150"
-            alt="Spotlight 1 image"
-          />
-          <p>"We get it there for you!"</p>
-          <p class="spotlight-contact">transport@acoc.com.ar<br />5555-1234</p>
-        </div>
-        <div class="spotlight">
-          <h3>Code Primera</h3>
-          <img
-            src="https://via.placeholder.com/150x150"
-            alt="Spotlight 2 image"
-          />
-          <p>An after school coding instructional program.</p>
-          <p class="spotlight-contact">
-            codeprimera@acoc.com.ar<br />5555-2345
-          </p>
-        </div>
-        <div class="spotlight spotlight3">
-          <h3>Build A Treefort</h3>
-          <img
-            src="https://via.placeholder.com/150x150"
-            alt="Spotlight 3 image"
-          />
-          <p>Over 1000 Plans!</p>
-          <p class="spotlight-contact">treefort@acoc.com.ar<br />5555-3456</p>
-        </div>
-      </section>
+      </div>
     </main>
+
+    <!-- FOOTER HERE -->
     <footer>
       <div class="general-info">
         <div class="footer-logo">
@@ -185,6 +112,5 @@
         <span id="medium-last-updated"></span>
       </p>
     </footer>
-    <script src="js/index.js"></script>
   </body>
 </html>

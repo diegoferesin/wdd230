@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #6290c8;
 }
@@ -20,7 +24,7 @@ button {
   line-height: 1.5rem;
 }
 
-main {
+.mainHome {
   max-width: 1080px;
   margin: 0 auto;
   padding: 1rem;
@@ -63,13 +67,6 @@ nav ul,
   border-top: 1px solid #376996;
 }
 
-/* main {
-  background-color: #cad5e2;
-  display: grid;
-  gap: 0.5rem;
-  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
-} */
-
 header,
 footer {
   background-color: #1d3461;
@@ -84,6 +81,10 @@ header p,
 footer p,
 .footer-info a {
   color: white;
+}
+
+.active {
+  background-color: #376996;
 }
 
 h1,
@@ -407,6 +408,12 @@ main section div.spotlight p.spotlight-contact {
 /* ######################################################## */
 /*                      DISCOVER PAGE                       */
 /* ######################################################## */
+.mainDiscover {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #cad5e2;
+}
 
 .discover-container {
   display: grid;
@@ -480,4 +487,196 @@ main section div.spotlight p.spotlight-contact {
   align-content: center;
   overflow: auto;
   flex-direction: column;
+}
+
+.redReminder {
+  color: red;
+  font-weight: bolder;
+}
+
+.formContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  background-color: #376996;
+  overflow: auto;
+  flex-direction: column;
+}
+
+.mainJoin {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: white;
+  border: 3px solid #376996;
+  margin-bottom: 1em;
+  box-shadow: 3px 3px 10px #363636;
+}
+
+.joinH1 {
+  margin-bottom: 2em;
+  padding: 1em;
+  background-color: #376996;
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.formGrid {
+  display: block;
+}
+
+.legend {
+  font-family: "Playfair Display", sans-serif;
+  color: #376996;
+  font-weight: bolder;
+  background-color: white;
+  padding: 0.75em;
+  box-shadow: 2px 2px 7px #363636;
+  margin: 0.75em;
+  border: 1px solid #376996;
+  width: 90%;
+}
+
+form {
+  width: 100%;
+}
+
+form fieldset {
+  margin: 10px;
+  border: 1px solid #32292f;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 10px #363636;
+}
+
+fieldset {
+  width: 95%;
+  padding: 1em;
+}
+
+form label {
+  display: block;
+  color: #32292f;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 0.9em;
+  margin: 1em;
+}
+
+input {
+  display: block;
+  font-size: 1rem;
+  border: 1px solid #32292f;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: black;
+  width: 100%;
+  max-width: 45rem;
+  background-color: #f2f2f2;
+}
+
+textarea {
+  margin-left: 1em;
+  width: 94%;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+
+.no100 {
+  display: inline-block;
+  width: fit-content;
+  margin-right: 1em;
+}
+
+.subs {
+  padding: 1em;
+  border: 1px solid #376996;
+}
+
+:checked + span {
+  font-weight: bold;
+  color: #376996;
+}
+
+.mySubmit {
+  align-self: center;
+  width: auto;
+  border: 1px solid #376996;
+  color: #376996;
+  font-family: "Playfair Display", sans-serif;
+  background-color: white;
+  margin: 1em;
+}
+
+.mySubmit:hover {
+  border: 1px solid white;
+  color: white;
+  background-color: #376996;
+}
+
+input:required {
+  border-left: red solid 3px;
+}
+
+input:valid {
+  border-left: green solid 3px;
+}
+
+.memberships {
+  background-color: #376996;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.memberships div {
+  border: 1px solid white;
+  margin: 1em;
+  text-align: left;
+  height: min-content;
+}
+
+.memberships div h2,
+.memberships div h3,
+.memberships div p {
+  padding: 0.5em;
+}
+
+.memberships div h2 {
+  background-color: white;
+  color: #376996;
+  font-weight: bolder;
+}
+
+.tyContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  overflow: auto;
+  flex-direction: column;
+}
+
+
+.thankyouH1{
+  margin: 2em;
+  padding: 2em;
+  border: 2px solid white;
+  background-color: #376996;
+}
+
+.thankyouP{
+  font-size: large;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #376996;
+  margin: 2em;
+  padding: 2em;
 }
