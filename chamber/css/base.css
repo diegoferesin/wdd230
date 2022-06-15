@@ -13,6 +13,7 @@ h4,
 h5 {
   font-family: "Playfair Display", sans-serif;
   margin: 0;
+  padding-left: 1em;
 }
 
 p,
@@ -652,6 +653,7 @@ input:valid {
   background-color: white;
   color: #376996;
   font-weight: bolder;
+  margin-left: 0;
 }
 
 .tyContainer {
