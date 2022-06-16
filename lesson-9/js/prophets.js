@@ -52,7 +52,9 @@ function displayProphets(prophet) {
   card.appendChild(h2);
   card.appendChild(pBirthdate);
   card.appendChild(pBirthplace);
-  card.appendChild(pDeathDate);
+  if (prophet.death != null) {
+    card.appendChild(pDeathDate);  
+  }
   card.appendChild(portrait);
 
   // Add/append the existing HTML div with the cards class with the section(card)
