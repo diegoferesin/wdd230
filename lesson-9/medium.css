@@ -3,4 +3,21 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
+
+  section {
+    transition: 0.3s;
+  }
+
+  section:hover {
+    transform: scale(1.1);
+  }
+
+  img {
+    width: 90%;
+    transition: 0.3s;
+  }
+
+  img:hover {
+    transform: scale(1.3);
+  }
 }
