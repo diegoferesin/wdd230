@@ -773,7 +773,7 @@ input:valid {
   padding-left: 0;
 }
 
-.divPhone{
+.divPhone {
   border: 1px solid white;
   padding: 1em;
   margin-top: 1em;
@@ -791,4 +791,64 @@ input:valid {
   align-items: center;
   align-content: center;
   flex-direction: column;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  overflow: auto;
+  flex-direction: row;
+}
+
+.customList {
+  border: 2px solid #376996;
+  margin: 1em;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  transition: 1.3s;
+}
+
+.customList:hover {
+  transform: scale(1.03);
+}
+.h2DirectoryList{
+  font-size: 1.1em;
+  color: #376996;
+  font-weight: bolder;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.imgDirectoryList {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#card-button,
+#list-button {
+  align-self: center;
+  font-weight: bold;
+  width: auto;
+  border: 1px solid #376996;
+  color: #376996;
+  font-family: "Playfair Display", sans-serif;
+  background-color: white;
+  margin: 1em;
+  padding: 1em;
+  transition: 1.3s;
+}
+
+#card-button:hover,
+#list-button:hover {
+  border: 1px solid white;
+  color: white;
+  background-color: #376996;
+  transform: scale(1.3);
 }

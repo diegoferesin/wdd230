@@ -134,4 +134,8 @@
   #hamburger-nav a:hover {
     transform: scale(1.1);
   }
+
+  .imgDirectoryList {
+    display: none;
+  }
 }
