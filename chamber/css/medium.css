@@ -138,4 +138,14 @@
   .imgDirectoryList {
     display: none;
   }
+
+  #card-button,
+  #list-button {
+    transition: 1.3s;
+  }
+
+  #card-button:hover,
+  #list-button:hover {
+    transform: scale(1.3);
+  }
 }

@@ -842,7 +842,6 @@ input:valid {
   background-color: white;
   margin: 1em;
   padding: 1em;
-  transition: 1.3s;
 }
 
 #card-button:hover,
@@ -850,5 +849,4 @@ input:valid {
   border: 1px solid white;
   color: white;
   background-color: #376996;
-  transform: scale(1.3);
 }
