@@ -99,8 +99,8 @@
   }
 
   .legend {
-    padding: 0.90em;
-    margin: 0.90em;
+    padding: 0.9em;
+    margin: 0.9em;
     border: 2px solid #376996;
   }
 
@@ -108,7 +108,8 @@
     width: 83%;
   }
 
-  .mainJoin {
+  .mainJoin,
+  .mainDirectory {
     max-width: 600px;
   }
 
@@ -119,5 +120,18 @@
   .footer-logo img {
     max-width: 113px;
     margin-left: 1em;
+  }
+
+  .flexContainerCardCompany:hover {
+    transform: scale(1.1);
+  }
+
+  .visitPage:hover {
+    transform: scale(1.1);
+  }
+
+  nav ul li a:hover,
+  #hamburger-nav a:hover {
+    transform: scale(1.1);
   }
 }
