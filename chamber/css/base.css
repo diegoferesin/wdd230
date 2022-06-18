@@ -9,11 +9,15 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5 {
   font-family: "Playfair Display", sans-serif;
   margin: 0;
   padding-left: 1em;
+}
+
+h4 {
+  font-family: "Playfair Display", sans-serif;
+  margin: 0;
 }
 
 p,
@@ -70,6 +74,12 @@ nav ul,
 
 header,
 footer {
+  max-width: 1080px;
+  margin: auto;
+}
+
+header,
+footer {
   background-color: #1d3461;
   width: 100%;
   padding-bottom: 1rem;
@@ -119,6 +129,10 @@ header div {
 header div {
   display: flex;
   justify-content: space-between;
+}
+
+div a img {
+  max-width: 47px;
 }
 
 .general-info {
@@ -260,6 +274,7 @@ section h3 {
   display: block;
   align-items: center;
   text-align: center;
+  margin-top: 1em;
   margin-bottom: 1rem;
 }
 
@@ -268,7 +283,7 @@ section h3 {
 }
 
 .footer-logo img {
-  width: 12.5rem;
+  max-width: 104px;
 }
 
 main section div.spotlight img {
@@ -666,15 +681,14 @@ input:valid {
   flex-direction: column;
 }
 
-
-.thankyouH1{
+.thankyouH1 {
   margin: 2em;
   padding: 2em;
   border: 2px solid white;
   background-color: #376996;
 }
 
-.thankyouP{
+.thankyouP {
   font-size: large;
   text-align: center;
   background-color: white;

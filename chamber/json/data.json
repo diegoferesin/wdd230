@@ -1,0 +1,85 @@
+{
+    "companies": [
+        {
+            "id": "1",
+            "name": "Ualá",
+            "address": "Nicaragua 4677, C1414BVG, CABA, Buenos Aires, Argentina",
+            "phone_number": "+5411-5263-3563",
+            "website": "https://www.uala.com.ar/",
+            "image": "imageURLValue",
+            "membership_level": "membershipLevelValue"
+        },
+        {
+            "id": "2",
+            "name": "Mercado Libre",
+            "address": "Arias 3751 7º piso (1430), CABA, Buenos Aires, Argentina",
+            "phone_number": "+5411-4640-8000",
+            "website": "https://www.mercadolibre.com.ar/",
+            "image": "imageURLValue",
+            "membership_level": "membershipLevelValue"
+        },
+        {
+            "id": "3",
+            "name": "10 Pines",
+            "address": "Av. Leandro N. Alem 896 6to piso, C1001 AAQ, CABA, Buenos Aires, Argentina",
+            "phone_number": "+5411-6091-3125",
+            "website": "https://www.10pines.com/",
+            "image": "imageURLValue",
+            "membership_level": "membershipLevelValue"
+        },
+        {
+            "id": "4",
+            "name": "Real Trends",
+            "address": "Castillo 1366, CABA, Buenos Aires, Argentina",
+            "phone_number": "+5411-5168-6162",
+            "website": "https://www.real-trends.com/",
+            "image": "imageURLValue",
+            "membership_level": "membershipLevelValue"
+        },
+        {
+            "id": "5",
+            "name": "3XM Group",
+            "address": "Humberto Primo 680 - 1er Piso Oficina S13 Complejo Capitalinas, Edificio Suquía, 5000 Córdoba, Argentina",
+            "phone_number": "+5435-1483-8185",
+            "website": "http://www.3xmgroup.com/",
+            "image": "imageURLValue",
+            "membership_level": "membershipLevelValue"
+        },
+        {
+            "id": "6",
+            "name": "Medallia",
+            "address": "Arévalo 1840, C1414 CQL, CABA, Buenos Aires, Argentina",
+            "phone_number": "+5411-6091-7590",
+            "website": "https://www.medallia.com/",
+            "image": "imageURLValue",
+            "membership_level": "membershipLevelValue"
+        },
+        {
+            "id": "7",
+            "name": "MuleSoft",
+            "address": "Juana Manso 999, 6th Floor, CABA, Buenos Aires, Argentina",
+            "phone_number": "+5411-5353-4497",
+            "website": "https://www.mulesoft.com/",
+            "image": "imageURLValue",
+            "membership_level": "membershipLevelValue"
+        },
+        {
+            "id": "8",
+            "name": "Auth0",
+            "address": "Av. Dorrego 2161, C1414, CABA, Buenos Aires, Argentina",
+            "phone_number": "+1 888-235-2699",
+            "website": "https://auth0.com/",
+            "image": "imageURLValue",
+            "membership_level": "membershipLevelValue"
+        },
+        {
+            "id": "9",
+            "name": "Virtualmind",
+            "address": "Av. Rivadavia 2134 Floor 3, Office B, C1034 CABA, Buenos Aires, Argentina",
+            "phone_number": "+5411-4951-9741",
+            "website": "https://careers.virtualmind.com/",
+            "image": "imageURLValue",
+            "membership_level": "membershipLevelValue"
+        }
+    ]
+}
