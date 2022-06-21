@@ -1,0 +1,24 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  overflow: auto;
+  flex-direction: column;
+}
+
+figure {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  overflow: auto;
+  flex-direction: column;
+}
