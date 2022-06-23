@@ -284,7 +284,7 @@ section h3 {
 }
 
 .footer-logo img {
-  max-width: 104px;
+  max-width: 62px;
 }
 
 main section div.spotlight img {
@@ -379,7 +379,6 @@ main section div.spotlight p.spotlight-contact {
 
 .event p:nth-child(2) {
   font-weight: bold;
-  margin-top: -2rem;
 }
 
 .event a {
