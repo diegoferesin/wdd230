@@ -399,12 +399,12 @@ main section div.spotlight p.spotlight-contact {
   width: 35%;
 }
 
-.weather-sun {
+/* .weather-sun {
   text-align: right;
   font-size: 1.5rem;
   line-height: 2.75rem;
   margin-top: 0.5rem;
-}
+} */
 
 .weather-temp {
   display: flex;
