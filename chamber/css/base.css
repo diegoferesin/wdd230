@@ -2,6 +2,7 @@
   --my-blue-color: rgb(21, 18, 243);
   --my-transform: scale(1.03);
   --title-font: "Rubik", sans-serif;
+  --border-white: 1px solid white;
 }
 
 * {
@@ -49,7 +50,7 @@ p {
   max-width: 1080px;
   margin: 0 auto;
   padding: 1rem;
-  border: 1px solid white;
+  border: var(--border-white);
   border-radius: 4px;
 }
 
@@ -187,7 +188,9 @@ footer p,
 }
 
 .active {
-  background-color: #376996;
+  color: white;
+  background-color: var(--my-blue-color);
+  font-weight: bold;
 }
 
 h1,
@@ -250,7 +253,7 @@ header button {
 main section,
 main section div.spotlight {
   padding: 0.75rem;
-  border: 1px solid white;
+  border: var(--border-white);
   border-radius: 3px;
   text-align: center;
 }
@@ -305,7 +308,7 @@ section h3 {
 .current-date {
   background-color: var(--my-blue-color);
   padding: 0.6rem;
-  border: 1px solid #376996;
+  border: var(--border-white);
   text-align: center;
   margin-right: 1em;
   margin-left: 1em;
