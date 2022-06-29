@@ -14,13 +14,13 @@
 
   nav ul.primary-nav {
     display: flex;
-    border-left: 1px solid #376996;
+    border-left: 1px solid rgb(21, 18, 243);
     border-top: none;
   }
 
   nav ul li a {
     border: none;
-    border-right: 1px solid #376996;
+    border-right: 1px solid rgb(21, 18, 243);
   }
 
   main section div.spotlight {
@@ -63,17 +63,17 @@
     grid-row: 1 / 4;
   }
 
-  .spotlight-three {
+  .spotlight3 {
     display: block;
   }
-
+  
   /* ######################################################## */
   /*                        JOIN PAGE                         */
   /* ######################################################## */
-  .mainJoin,
+  /* .mainJoin,
   .mainDirectory {
     max-width: 1080px;
-  }
+  } */
   
   .formGrid {
     display: grid;

@@ -19,6 +19,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Chamber of Commerce Project</title>
   </head>
   <body>
@@ -67,11 +71,11 @@
       </ul>
       <p class="current-date"></p>
     </header>
-    <main class="sections mainHome">
+    <main class="mainHome">
       <section class="action-call">
         <h3>Welcome to the Chamber of Commerce</h3>
-        <img src="https://via.placeholder.com/500X213" alt="Action call" />
-        <a href="join.html">Join the chamber</a>
+        <img src="https://via.placeholder.com/500X300" alt="Action call" />
+        <a href="join.html" class="custom-a">Join the chamber</a>
       </section>
       <section class="event">
         <h3>Ribbon Cutting</h3>
@@ -79,24 +83,28 @@
         <p>
           Join us for the grand opening of The Unicorn Palace, Thursday aat 1:00
           p.m.
-          <a href="#">more info ...</a>
         </p>
+        <a href="#" class="custom-a">more info ...</a>
       </section>
 
       <section class="weather">
         <h3>Weather</h3>
         <div class="weather-temp">
+          <p><span id="current-temp"></span> <strong>&deg;C</strong></p>
           <img src="" alt="" id="weather-icon" />
-          <span><span id="current-temp"></span> &deg;C</span>
         </div>
+        <hr />
         <p>
           <span id="weather-sun"></span>
         </p>
+        <hr />
         <div class="weather-wind">
-          <p>Wind Speed:
-            <span id="wind-speed" ></span>
+          <p>
+            Wind Speed:
+            <span id="wind-speed"></span>
           </p>
-          <p>Wind Chill:
+          <p>
+            Wind Chill:
             <span id="wind-child"></span>
           </p>
         </div>
@@ -111,15 +119,11 @@
         </p>
       </section>
       <section class="join">
-        <a href="">
-          <h3>Join Us!</h3>
-        </a>
-        <div>
-          <p>
-            Discover how to join the chamber of commerce and how it will benefit
-            your organization
-          </p>
-        </div>
+        <a href="join.html" class="custom-a">Join Us!</a>
+        <p>
+          Discover how to join the chamber of commerce and how it will benefit
+          your organization
+        </p>
       </section>
       <section class="spotlights">
         <div class="spotlight">
@@ -172,10 +176,12 @@
           <a
             href="https://www.google.com.ar/maps/dir//C%C3%A1mara+Argentina+de+Comercio,+1003,+Av.+Leandro+N.+Alem+36,+C1003AAN+CABA/@-34.6152008,-58.4056832,14z/data=!4m9!4m8!1m0!1m5!1m1!1s0x95a3352cde5aaa3b:0x8f92d6a50eb9ec0!2m2!1d-58.3704212!2d-34.6066422!3e0"
             target="_blank"
+            class="custom-a"
             >📍 Location Map</a
           >
         </div>
       </div>
+      <hr />
       <div class="small-copyright">
         <p>
           &copy; <span id="small-copyright-year"></span> Argentine Chamber of
