@@ -28,6 +28,7 @@ function displayCompaniesCards(company) {
   let h3Address = document.createElement("h3");
   let h3PhoneNumber = document.createElement("h3");
   let divPhone = document.createElement("div");
+  let pMembership = document.createElement("p");
   pageButton.setAttribute("href", company.website);
   pageButton.setAttribute("target", "_blank");
   pageButton.setAttribute("class", "visitPage");
@@ -51,12 +52,14 @@ function displayCompaniesCards(company) {
   divPhone.setAttribute("class", "divPhone");
   h3Address.setAttribute("class", "h3Directory");
   h3PhoneNumber.setAttribute("class", "h3Directory");
+  pMembership.innerHTML = company.membership_level;
 
   section.setAttribute("class", "flexContainerCardCompany");
   section.appendChild(image);
   section.appendChild(nameTitle);
   section.appendChild(divAddress);
   section.appendChild(divPhone);
+  section.appendChild(pMembership)
   section.appendChild(pageButton);
   main.append(section);
 }

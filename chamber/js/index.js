@@ -26,7 +26,7 @@ hamburgerBtn.onclick = toggleMenu;
 // const today = Date.now()
 // document.getElementById("today").textContent = today;
 
-const today = now.getDate();
+let today = now.getDay();
 let meetGreetMessage = document.getElementById("meet-greet-message");
 
 if(today === 1 || today === 2) {

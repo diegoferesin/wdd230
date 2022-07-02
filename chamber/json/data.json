@@ -7,7 +7,7 @@
             "phone_number": "11-5263-3563",
             "website": "https://www.uala.com.ar/",
             "image": "images/companies/01",
-            "membership_level": "membershipLevelValue"
+            "membership_level": "Gold"
         },
         {
             "id": "02",
@@ -16,7 +16,7 @@
             "phone_number": "11-4640-8000",
             "website": "https://www.mercadolibre.com.ar/",
             "image": "images/companies/02",
-            "membership_level": "membershipLevelValue"
+            "membership_level": "Silver"
         },
         {
             "id": "03",
@@ -25,7 +25,7 @@
             "phone_number": "11-6091-3125",
             "website": "https://www.10pines.com/",
             "image": "images/companies/03",
-            "membership_level": "membershipLevelValue"
+            "membership_level": "Bronze"
         },
         {
             "id": "04",
@@ -34,7 +34,7 @@
             "phone_number": "11-5168-6162",
             "website": "https://www.real-trends.com/",
             "image": "images/companies/04",
-            "membership_level": "membershipLevelValue"
+            "membership_level": "Gold"
         },
         {
             "id": "05",
@@ -43,7 +43,7 @@
             "phone_number": "11-1483-8185",
             "website": "http://www.3xmgroup.com/",
             "image": "images/companies/05",
-            "membership_level": "membershipLevelValue"
+            "membership_level": "Silver"
         },
         {
             "id": "06",
@@ -52,7 +52,7 @@
             "phone_number": "11-6091-7590",
             "website": "https://www.medallia.com/",
             "image": "images/companies/06",
-            "membership_level": "membershipLevelValue"
+            "membership_level": "Bronze"
         },
         {
             "id": "07",
@@ -61,7 +61,7 @@
             "phone_number": "11-5353-4497",
             "website": "https://www.mulesoft.com/",
             "image": "images/companies/07",
-            "membership_level": "membershipLevelValue"
+            "membership_level": "Gold"
         },
         {
             "id": "08",
@@ -70,7 +70,7 @@
             "phone_number": "+1 888-235-2699",
             "website": "https://auth0.com/",
             "image": "images/companies/08",
-            "membership_level": "membershipLevelValue"
+            "membership_level": "Silver"
         },
         {
             "id": "09",
@@ -79,7 +79,7 @@
             "phone_number": "11-4951-9741",
             "website": "https://careers.virtualmind.com/",
             "image": "images/companies/09",
-            "membership_level": "membershipLevelValue"
+            "membership_level": "Bronze"
         }
     ]
 }

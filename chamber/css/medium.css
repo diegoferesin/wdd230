@@ -2,6 +2,11 @@
   body {
     margin: 1em;
   }
+
+  a:visited {
+    color: var(--my-blue-color);
+  }
+
   main {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -28,7 +33,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1em;
     margin-left: 0.5em;
     margin-right: 1em;
   }
@@ -36,11 +40,6 @@
   header div div a {
     padding: 0;
     margin: 0;
-  }
-
-  header,
-  footer {
-    max-width: 1080px;
   }
 
   header {
@@ -128,8 +127,15 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  form {
-    grid-column: 1/2;
+  .mainJoin,
+  .mainDirectory,
+  header,
+  footer {
+    max-width: 856px;
+  }
+
+  form fieldset {
+    margin: 1em;
   }
 
   #memberlevels {
@@ -139,16 +145,14 @@
   .legend {
     padding: 0.9em;
     margin: 0.9em;
-    border: 2px solid #376996;
+  }
+
+  .joinH1 {
+    margin-bottom: 1em;
   }
 
   textarea {
     width: 83%;
-  }
-
-  .mainJoin,
-  .mainDirectory {
-    max-width: 600px;
   }
 
   div a img {

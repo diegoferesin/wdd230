@@ -3,6 +3,18 @@
   --my-transform: scale(1.03);
   --title-font: "Rubik", sans-serif;
   --border-white: 1px solid white;
+  --gradient-01: linear-gradient(
+    -225deg,
+    rgba(255, 0, 184, 1) 0%,
+    rgba(178, 11, 217, 0.97) 51%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  --gradient-01-invert: linear-gradient(
+    -225deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(178, 11, 217, 0.97) 51%,
+    rgba(255, 0, 184, 1) 100%
+  );
 }
 
 * {
@@ -148,14 +160,33 @@ nav ul,
   display: none;
   list-style-type: none;
   padding: 0;
-  border-top: 1px solid #376996;
+  border-top: 1px solid var(--my-blue-color);
+}
+
+nav ul li a,
+#hamburger-nav a {
+  /* color: var(--my-blue-color); */
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+  border-bottom: 1px solid var(--my-blue-color);
+  transition: 0.5s;
+}
+
+.active {
+  color: white;
+  background-color: var(--my-blue-color);
+  font-weight: bold;
+}
+
+.active:visited {
+  color: white;
 }
 
 header,
 footer {
   padding-bottom: 1em;
   border-radius: 4px;
-  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -187,12 +218,6 @@ footer p,
   color: white;
 }
 
-.active {
-  color: white;
-  background-color: var(--my-blue-color);
-  font-weight: bold;
-}
-
 h1,
 h2 {
   text-align: left;
@@ -210,9 +235,11 @@ h2 {
 header div {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 0.5em;
+  margin-top: 1em;
+  margin-left: 0.5em;
+  margin-right: 1em;
 }
 
 hr {
@@ -245,7 +272,6 @@ footer h4 {
 header button {
   color: white;
   font-size: 2rem;
-  margin-top: 1.5rem;
   background-color: var(--my-blue-color);
   border: 1px solid var(--my-blue-color);
 }
@@ -315,9 +341,9 @@ section h3 {
   margin-top: 0.6em;
 }
 
-.social {
+/* .social {
   margin-top: 2rem;
-}
+} */
 
 .social img {
   width: 1.5rem;
@@ -377,10 +403,12 @@ main section div.spotlight p.spotlight-contact {
 
 #meet-greet-message {
   display: none;
+  color: white;
   text-align: center;
   padding: 1rem;
-  background-color: #1f487e;
-  border-bottom: 1px solid #376996;
+  background-image: linear-gradient(to bottom right, #4218b8, #00c0ff);
+  border: 1px solid white;
+  border-radius: 4px;
 }
 
 .action-call {
@@ -399,16 +427,6 @@ main section div.spotlight p.spotlight-contact {
   color: white;
 }
 
-nav ul li a,
-#hamburger-nav a {
-  display: block;
-  color: var(--my-blue-color);
-  text-decoration: none;
-  padding: 1rem;
-  border-bottom: 1px solid #376996;
-  transition: 0.5s;
-}
-
 .custom-a {
   bottom: 1rem;
   right: 1rem;
@@ -420,6 +438,7 @@ nav ul li a,
   text-decoration: none;
   max-width: fit-content;
   margin: 0 auto;
+  margin-bottom: 1;
 }
 
 .action-call img {
@@ -492,8 +511,8 @@ nav ul li a,
 /* ######################################################## */
 
 main div section {
-  margin: 0.1em;
-  padding: 1em;
+  /* margin: 0.1em; */
+  /* padding: 1em; */
   text-align: left;
 }
 
@@ -508,26 +527,36 @@ main div section {
   justify-content: space-between;
   align-items: flex-start;
   align-content: flex-start;
-  background-color: #376996;
-  overflow: auto;
+  background-color: white;
+  border-radius: 3px;
   flex-direction: column;
+  padding-right: 1ee;
 }
 
 .mainJoin,
 .mainDirectory {
-  max-width: 1080px;
+  border-radius: 4px;
   margin: 0 auto;
   padding: 1rem;
-  background-color: white;
-  border: 3px solid #376996;
-  margin-bottom: 1em;
-  box-shadow: 3px 3px 10px #363636;
+  background-image: linear-gradient(
+    -225deg,
+    rgba(255, 0, 184, 1) 0%,
+    rgba(178, 11, 217, 0.9710477941176471) 51%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  border: 2px solid white;
+  /* margin-bottom: 1em; */
 }
 
 .joinH1 {
-  margin-bottom: 2em;
+  border-radius: 3px;
+  /* margin-bottom: 2em; */
   padding: 1em;
-  background-color: #376996;
+  background: linear-gradient(to left, #8e2de2, #4a00e0);
+  border: 1px solid white;
   grid-area: 1 / 1 / 2 / 3;
 }
 
@@ -547,13 +576,14 @@ main div section {
 }
 
 .legend {
-  color: #376996;
-  font-weight: bolder;
-  background-color: white;
+  color: white;
+  font-weight: bold;
+  background-image: var(--gradient-01);
   padding: 0.75em;
-  box-shadow: 2px 2px 7px #363636;
   margin: 0.75em;
-  border: 1px solid #376996;
+  border: 1px solid #4a00e0;
+  border-radius: 3px;
+  box-shadow: 5px 5px 0px white;
   width: 90%;
 }
 
@@ -563,20 +593,18 @@ form {
 
 form fieldset {
   margin: 10px;
-  border: 1px solid #32292f;
-  padding: 20px;
-  background-color: #ffffff;
-  box-shadow: 3px 3px 10px #363636;
+  border: 1px solid #8e2de2;
+  background: linear-gradient(to left, #fc00ff, #00dbde);
 }
 
 fieldset {
   width: 95%;
-  padding: 1em;
 }
 
 form label {
   display: block;
-  color: #32292f;
+  color: white;
+  font-weight: bolder;
   font-size: 0.9em;
   margin: 1em;
 }
@@ -584,10 +612,10 @@ form label {
 input {
   display: block;
   font-size: 1rem;
-  border: 1px solid #32292f;
+  border: 1px solid #4403c5f8;
   border-radius: 4px;
   padding: 0.75rem;
-  color: black;
+  color: #4403c5f8;
   width: 100%;
   max-width: 45rem;
   background-color: #f2f2f2;
@@ -595,8 +623,10 @@ input {
 
 textarea {
   margin-left: 1em;
-  width: 94%;
+  width: 90%;
   font-size: 1rem;
+  border-radius: 3px;
+  border: 1px solid #4403c5f8;
 }
 
 .no100 {
@@ -606,21 +636,27 @@ textarea {
 }
 
 .subs {
+  font-weight: normal;
   padding: 1em;
-  border: 1px solid #376996;
+  border: var(--border-white);
+  border-radius: 3px;
 }
 
 :checked + span {
   font-weight: bold;
+  transform: var(--my-transform);
+  transition: 0.5s;
 }
 
 .mySubmit {
   align-self: center;
   width: auto;
-  border: 1px solid #376996;
-  color: #376996;
-  background-color: white;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom right, #ff3e9d, #0e1f40);
   margin: 1em;
+  text-transform: uppercase;
 }
 
 input:required {
@@ -632,8 +668,7 @@ input:valid {
 }
 
 .memberships {
-  background-color: #376996;
-  color: white;
+  background-color: white;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -645,7 +680,9 @@ input:valid {
 }
 
 .memberships div {
-  border: 1px solid white;
+  border: 2px solid #8e2de2;
+  box-shadow: 5px 5px 0px #8e2de2;
+  border-radius: 4px;
   margin: 1em;
   text-align: left;
   height: min-content;
@@ -657,9 +694,17 @@ input:valid {
   padding: 0.5em;
 }
 
+.memberships div p {
+  color: #8e2de2;
+}
+
+.memberships div h3 {
+  border: none;
+  color: white;
+}
+
 .memberships div h2 {
-  background-color: white;
-  color: #376996;
+  background-color: #8e2de2;
   font-weight: bolder;
   margin-left: 0;
 }
