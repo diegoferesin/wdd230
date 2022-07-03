@@ -28,10 +28,12 @@ function displayCompaniesCards(company) {
   let h3Address = document.createElement("h3");
   let h3PhoneNumber = document.createElement("h3");
   let divPhone = document.createElement("div");
+  let divMembership = document.createElement("div");
+  let h3Membership = document.createElement("h3");
   let pMembership = document.createElement("p");
   pageButton.setAttribute("href", company.website);
   pageButton.setAttribute("target", "_blank");
-  pageButton.setAttribute("class", "visitPage");
+  pageButton.setAttribute("class", "visitPage custom-a");
   pageButton.innerHTML = "Visit Site";
 
   image.setAttribute("src", company.image + ".webp");
@@ -53,13 +55,18 @@ function displayCompaniesCards(company) {
   h3Address.setAttribute("class", "h3Directory");
   h3PhoneNumber.setAttribute("class", "h3Directory");
   pMembership.innerHTML = company.membership_level;
+  h3Membership.innerHTML = "Membership";
+  h3Membership.setAttribute("class", "h3Directory");
+  divMembership.appendChild(h3Membership);
+  divMembership.appendChild(pMembership);
+  divMembership.setAttribute("class", "divPhone");
 
   section.setAttribute("class", "flexContainerCardCompany");
   section.appendChild(image);
   section.appendChild(nameTitle);
   section.appendChild(divAddress);
   section.appendChild(divPhone);
-  section.appendChild(pMembership)
+  section.appendChild(divMembership)
   section.appendChild(pageButton);
   main.append(section);
 }
@@ -73,11 +80,13 @@ function displayCompaniesList(company) {
   let nameTitle = document.createElement("li");
   let pAddress = document.createElement("li");
   let pPhone = document.createElement("li");
+  let pMembership = document.createElement("li");
+  
   let buttonLi = document.createElement("li");
   let pageButton = document.createElement("a");
   pageButton.setAttribute("href", company.website);
   pageButton.setAttribute("target", "_blank");
-  pageButton.setAttribute("class", "visitPageList");
+  pageButton.setAttribute("class", "visitPageList custom-a");
   pageButton.innerHTML = "Visit Site";
 
   image.setAttribute("src", company.image + ".webp");
@@ -89,14 +98,16 @@ function displayCompaniesList(company) {
   nameTitle.innerHTML = company.name;
   pAddress.innerHTML = company.address;
   pPhone.innerHTML = company.phone_number;
+  pMembership.innerHTML = company.membership_level;
 
   buttonLi.appendChild(pageButton);
   list.appendChild(imageLi);
   list.appendChild(nameTitle);
   list.appendChild(pAddress);
   list.appendChild(pPhone);
+  list.appendChild(pMembership);
   list.appendChild(buttonLi);
-  mainList.append(list);
+  mainList.appendChild(list);
 }
 
 cardViewButton.addEventListener("click", () => {
