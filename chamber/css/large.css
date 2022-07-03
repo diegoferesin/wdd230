@@ -17,10 +17,6 @@
     border-top: none;
   }
 
-  .primary-nav li a:visited {
-    color: var(--my-blue-color);
-  }
-
   nav ul li a {
     border: none;
     border-right: 1px solid rgb(21, 18, 243);
