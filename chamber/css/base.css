@@ -759,7 +759,7 @@ input:valid {
 
 .visitPage:visited,
 .visitPageList:visited {
-  color: white; 
+  /* color: white; */
 }
 
 .directoryContainer {
@@ -843,7 +843,7 @@ input:valid {
   margin: 1em;
   list-style: none;
   transition: 1.3s;
-  /* padding-inline-start: 0; */
+  padding-inline-start: 0;
   padding: 1em;
 }
 

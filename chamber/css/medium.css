@@ -4,7 +4,7 @@
   }
 
   a:visited {
-    /* color: var(--my-blue-color); */
+    color: var(--my-blue-color);
   }
 
   main {
@@ -50,10 +50,10 @@
     margin-top: 1em;
   }
 
-  .custom-a:hover {
+  /* .custom-a:hover {
     transform: scale(1.09);
     transition: 1s;
-  }
+  } */
 
   .current-date {
     padding: 1em;
@@ -199,9 +199,9 @@
     margin: 1em;
   }
 
-  .customList:hover {
+  /* .customList:hover {
     transform: var(--my-transform);
-  }
+  } */
 
   .action-call a:hover,
   .join a:hover {
