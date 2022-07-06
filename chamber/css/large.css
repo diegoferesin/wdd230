@@ -121,6 +121,75 @@
 
   .visitPageList:hover {
     transition: 0.5s;
-    transform: scale(3);  
+    transform: scale(3);
+  }
+
+  #hamburger-nav li a.active,
+  nav ul li a.active {
+    animation: activeAnimation 1s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes activeAnimation {
+    0% {
+      transform: scale(1);
+    }
+    5% {
+      transform: scale(1.01);
+    }
+    10% {
+      transform: scale(1.02);
+    }
+    15% {
+      transform: scale(1.03);
+    }
+    20% {
+      transform: scale(1.04);
+    }
+    25% {
+      transform: scale(1.05);
+    }
+    30% {
+      transform: scale(1.06);
+    }
+    35% {
+      transform: scale(1.07);
+    }
+    40% {
+      transform: scale(1.08);
+    }
+    45% {
+      transform: scale(1.09);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    55% {
+      transform: scale(1.09);
+    }
+    60% {
+      transform: scale(1.08);
+    }
+    66% {
+      transform: scale(1.07);
+    }
+    70% {
+      transform: scale(1.06);
+    }
+    75% {
+      transform: scale(1.05);
+    }
+    85% {
+      transform: scale(1.04);
+    }
+    90% {
+      transform: scale(1.03);
+    }
+    95% {
+      transform: scale(1.02);
+    }
+    100% {
+      transform: scale(1.01);
+    }
   }
 }

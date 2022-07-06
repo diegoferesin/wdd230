@@ -85,7 +85,7 @@
     padding-top: 0;
     margin-bottom: 0.2em;
   }
-  
+
   .footer-headings p {
     margin: 0.2em 0.2em 0.2em 0;
   }
@@ -240,7 +240,7 @@
   #card-button:hover,
   #list-button:hover {
     transform: scale(1.1);
-  } 
+  }
 
   .discover-container {
     display: grid;
