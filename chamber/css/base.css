@@ -50,7 +50,7 @@ h4 {
 .mainHome,
 .mainDiscover {
   color: white;
-  /* max-width: 1080px; */
+  max-width: 1080px;
   margin: 0 auto;
   padding: 1rem;
   border: var(--border-white);
@@ -273,7 +273,7 @@ header button {
 
 main section,
 main section div.spotlight {
-  padding: 0.75rem;
+  /* padding: 0.75rem; */
   border: var(--border-white);
   border-radius: 3px;
   text-align: center;
@@ -502,8 +502,8 @@ main section div.spotlight p.spotlight-contact {
 /* ######################################################## */
 
 main div section {
-  /* margin: 0.1em; */
-  /* padding: 1em; */
+  margin: 0.1em;
+  padding: 1em;
   text-align: left;
 }
 
@@ -600,7 +600,7 @@ main div section {
 }
 
 form {
-  width: 100%;
+  /* width: 100%; */
 }
 
 form fieldset {
@@ -681,14 +681,15 @@ input:valid {
 
 .memberships {
   background-color: white;
-  display: flex;
+  /* display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-start;
   align-content: flex-start;
   overflow: auto;
-  flex-direction: column;
+  flex-direction: column; */
   margin-top: 1em;
+  padding: 0;
 }
 
 .memberships div {

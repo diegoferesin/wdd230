@@ -143,6 +143,7 @@
   .mainJoin,
   .mainDirectory,
   .mainHome,
+  .mainDiscover,
   header,
   footer {
     max-width: 856px;
