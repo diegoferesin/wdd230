@@ -156,6 +156,7 @@ nav ul,
 
 nav ul li a,
 #hamburger-nav a {
+  color: var(--my-blue-color);
   display: block;
   text-decoration: none;
   padding: 1rem;
@@ -163,18 +164,11 @@ nav ul li a,
   transition: 0.5s;
 }
 
-#hamburger-nav a:visited {
-  color: var(--my-blue-color);
-}
-
-.active {
+#hamburger-nav li a.active,
+nav ul li a.active {
   color: white;
   background-color: var(--my-blue-color);
   font-weight: bold;
-}
-
-.active:visited {
-  color: white;
 }
 
 header,
@@ -645,6 +639,7 @@ textarea {
   display: inline-block;
   width: fit-content;
   margin-right: 1em;
+  width: 1;
 }
 
 .subs {
