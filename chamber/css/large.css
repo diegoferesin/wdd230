@@ -71,6 +71,7 @@
   /* ######################################################## */
   .mainJoin,
   .mainDirectory,
+  .mainHome,
   header,
   footer {
     max-width: 1080px;

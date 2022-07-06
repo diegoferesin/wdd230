@@ -44,22 +44,13 @@ h3 {
 
 h4 {
   margin: 0;
-}
-
-p,
-li,
-button {
-  margin: 0;
-}
-
-p {
-  padding: 0.5em;
+  /* margin-left: 1em; */
 }
 
 .mainHome,
 .mainDiscover {
   color: white;
-  max-width: 1080px;
+  /* max-width: 1080px; */
   margin: 0 auto;
   padding: 1rem;
   border: var(--border-white);
@@ -172,6 +163,10 @@ nav ul li a,
   transition: 0.5s;
 }
 
+#hamburger-nav a:visited {
+  color: var(--my-blue-color);
+}
+
 .active {
   color: white;
   background-color: var(--my-blue-color);
@@ -236,7 +231,7 @@ header div {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1em;
+  margin-top: 0.5em;
   margin-left: 0.5em;
   margin-right: 1em;
 }
@@ -266,6 +261,7 @@ div a img {
 
 footer h4 {
   color: white;
+  padding-top: 1em;
 }
 
 header button {
@@ -286,10 +282,6 @@ main section div.spotlight {
 section h3 {
   font-style: italic;
   font-weight: 500;
-}
-
-.footer-headings {
-  padding: 1rem;
 }
 
 .spotlights {
@@ -371,9 +363,9 @@ section h3 {
   margin-bottom: 1rem;
 }
 
-.footer-headings {
+/* .footer-headings {
   display: block;
-}
+} */
 
 .footer-logo img {
   max-width: 62px;
@@ -434,6 +426,10 @@ main section div.spotlight p.spotlight-contact {
   max-width: fit-content;
   margin: 0 auto;
   margin-bottom: 1;
+}
+
+.custom-a:visited {
+  color: white;
 }
 
 .action-call img {
@@ -574,11 +570,11 @@ main div section {
 #list-button {
   align-self: center;
   font-weight: bold;
-  width:fit-content;
+  width: fit-content;
   border: var(--border-white);
   border-radius: 3px;
   color: white;
-  background-image:linear-gradient(to left, #cb356b, #bd3f32);
+  background-image: linear-gradient(to left, #cb356b, #bd3f32);
   margin: 1em;
   padding: 1em;
 }
@@ -757,11 +753,6 @@ input:valid {
   padding: 0.75rem;
 }
 
-.visitPage:visited,
-.visitPageList:visited {
-  /* color: white; */
-}
-
 .directoryContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -803,7 +794,7 @@ input:valid {
   border-left: 0;
 }
 
-.divAddress, 
+.divAddress,
 .divPhone {
   border-radius: 3px;
   border: 2px solid #93291e;

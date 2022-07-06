@@ -76,9 +76,22 @@
   }
 
   .footer-headings {
-    align-items: flex-start;
     display: flex;
     flex-direction: column;
+    padding-left: 1em;
+  }
+
+  .footer-headings h4 {
+    padding-top: 0;
+    margin-bottom: 0.2em;
+  }
+  
+  .footer-headings p {
+    margin: 0.2em 0.2em 0.2em 0;
+  }
+
+  .footer-info {
+    margin: 0.1em 1em 0.1em 1em;
   }
 
   .action-call {
@@ -129,6 +142,7 @@
 
   .mainJoin,
   .mainDirectory,
+  .mainHome,
   header,
   footer {
     max-width: 856px;
