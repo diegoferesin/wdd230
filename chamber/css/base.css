@@ -44,11 +44,12 @@ h3 {
 
 h4 {
   margin: 0;
-  /* margin-left: 1em; */
+  margin-left: 1em;
 }
 
 .mainHome,
-.mainDiscover {
+.mainDiscover,
+.mainContact {
   color: white;
   max-width: 1080px;
   margin: 0 auto;
@@ -496,7 +497,7 @@ main section div.spotlight p.spotlight-contact {
 /* ######################################################## */
 
 main div section {
-  margin: 0.1em;
+  /* margin: 0.1em; */
   padding: 1em;
   text-align: left;
 }
@@ -540,6 +541,11 @@ main div section {
 
 .mainDirectory {
   background-image: linear-gradient(to left, #ed213a, #93291e);
+}
+
+.mainContact {
+  /* background: linear-gradient(to right, #2143ce, #b21f1f, #fdbb2d); */
+  background: linear-gradient(to left, #f12711, #f5af19);
 }
 
 .joinH1 {
@@ -591,6 +597,27 @@ main div section {
   border-radius: 3px;
   box-shadow: 5px 5px 0px white;
   width: 90%;
+}
+
+.legendContact {
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(to left, #b92b27, #1565c0);
+  padding: 0.75em;
+  margin: 0.75em;
+  border: 1px solid #4a00e0;
+  border-radius: 3px;
+  box-shadow: 5px 5px 0px white;
+  width: 90%;
+}
+
+.contactH2 {
+  font-weight: bold;
+  background: linear-gradient(to left, #b92b27, #1565c0);
+  padding: 0.75em;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-bottom: 0.75em;
 }
 
 form {
@@ -855,4 +882,29 @@ input:valid {
 
 .hidden {
   display: none;
+}
+
+.sectionContact {
+  /* margin-top: 1em; */
+  text-align: center;
+  background: linear-gradient(to left, #6054cb, #302b63, #24243e);
+}
+
+.sectionContact h4 {
+  margin: 0.75em;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 0.5em;
+}
+
+.contactH1 {
+  padding: 0.75em;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-bottom: 0.75em;
+  background: linear-gradient(to right, #f12711, #f5af19);
+}
+
+.fieldsetContact {
+  background: linear-gradient(to left, #6054cb, #302b63, #24243e);
 }

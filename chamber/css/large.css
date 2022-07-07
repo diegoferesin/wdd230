@@ -70,6 +70,7 @@
   .mainDirectory,
   .mainHome,
   .mainDiscover,
+  .mainContact,
   header,
   footer {
     max-width: 1080px;
@@ -191,5 +192,19 @@
     100% {
       transform: scale(1.01);
     }
+  }
+
+  .formGridContact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .formGridContact form {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .sectionContact {
+    margin-top: 0;
+    grid-area: 1 / 2 / 2 / 3;
   }
 }
