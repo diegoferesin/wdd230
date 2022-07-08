@@ -145,6 +145,7 @@
   .mainHome,
   .mainDiscover,
   .mainContact,
+  .tyContainer,
   header,
   footer {
     max-width: 856px;

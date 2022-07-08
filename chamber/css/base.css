@@ -25,6 +25,9 @@
 body {
   margin: 8px;
   background-image: linear-gradient(to bottom right, #00c0ff, #4218b8);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 h1,
@@ -44,15 +47,17 @@ h3 {
 
 h4 {
   margin: 0;
-  margin-left: 1em;
+  /* margin-left: 1em; */
 }
 
 .mainHome,
 .mainDiscover,
-.mainContact {
+.mainContact,
+.tyContainer {
   color: white;
   max-width: 1080px;
   margin: 0 auto;
+  margin-top: 0.75em;
   padding: 1rem;
   border: var(--border-white);
   border-radius: 4px;
@@ -180,7 +185,7 @@ footer {
 }
 
 header {
-  margin-bottom: 0.7em;
+  /* margin-bottom: 0.7em; */
   background-image: linear-gradient(
     -225deg,
     var(--my-blue-color) 0%,
@@ -268,7 +273,7 @@ header button {
 
 main section,
 main section div.spotlight {
-  /* padding: 0.75rem; */
+  padding: 0.75rem;
   border: var(--border-white);
   border-radius: 3px;
   text-align: center;
@@ -517,12 +522,27 @@ main div section {
   border-radius: 3px;
   flex-direction: column;
   padding-right: 1ee;
+  padding-bottom: 1e;
+}
+
+.formContainerContact {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  background-color: white;
+  border-radius: 3px;
+  flex-direction: column;
+  padding-right: 1em;
+  padding-bottom: 1em;
 }
 
 .mainJoin,
 .mainDirectory {
   border-radius: 4px;
   margin: 0 auto;
+  margin-top: 0.75em;
   border: 2px solid white;
 }
 
@@ -621,7 +641,7 @@ main div section {
 }
 
 form {
-  /* width: 100%; */
+  width: 100%;
 }
 
 form fieldset {
@@ -655,6 +675,7 @@ input {
 }
 
 textarea {
+  color: #4403c5f8;
   margin-left: 1em;
   width: 90%;
   font-size: 1rem;
@@ -745,29 +766,34 @@ input:valid {
 }
 
 .tyContainer {
+  margin-top: 0.75em;
+  color: white;
   display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   align-content: center;
-  overflow: auto;
   flex-direction: column;
+  border: var(--border-white);
+  border-radius: 3px;
+  padding: 1em;
+  background: linear-gradient(to bottom, #52c234, #061700);
 }
 
 .thankyouH1 {
-  margin: 2em;
-  padding: 2em;
-  border: 2px solid white;
-  background-color: #376996;
+  text-align: center;
+  width: 100%;
+  border-radius: 3px;
+  padding: 1em;
+  background: linear-gradient(to right, #283c86, #45a247);
+  border: 1px solid white;
 }
 
 .thankyouP {
+  width: 100%;
   font-size: large;
   text-align: center;
-  background-color: white;
-  border: 1px solid #376996;
-  margin: 2em;
-  padding: 2em;
+  border: var(--border-white);
+  padding: 1em;
 }
 
 .visitPage {
@@ -885,7 +911,7 @@ input:valid {
 }
 
 .sectionContact {
-  /* margin-top: 1em; */
+  margin-top: 1em;
   text-align: center;
   background: linear-gradient(to left, #6054cb, #302b63, #24243e);
 }
@@ -906,5 +932,11 @@ input:valid {
 }
 
 .fieldsetContact {
+  padding-bottom: 1em;
   background: linear-gradient(to left, #6054cb, #302b63, #24243e);
+}
+
+iframe {
+  width: 150px;
+  height: 150px;
 }

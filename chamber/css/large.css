@@ -71,6 +71,7 @@
   .mainHome,
   .mainDiscover,
   .mainContact,
+  .tyContainer,
   header,
   footer {
     max-width: 1080px;
@@ -93,7 +94,7 @@
   }
 
   textarea {
-    width: 98%;
+    width: 93%;
   }
 
   .memberships {
@@ -201,10 +202,15 @@
 
   .formGridContact form {
     grid-area: 1 / 1 / 2 / 2;
+    margin-bottom: 0;
   }
 
   .sectionContact {
     margin-top: 0;
     grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .formContainerContact {
+    margin-right: 1em;
   }
 }

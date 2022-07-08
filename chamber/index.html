@@ -74,7 +74,13 @@
     <main class="mainHome">
       <section class="action-call">
         <h3>Welcome to the Chamber of Commerce</h3>
-        <img src="https://via.placeholder.com/500X300" alt="Action call" />
+        <!-- <img src="https://via.placeholder.com/500X300" alt="Action call" /> -->
+        <picture>
+          <source media="(min-width: 960px)" srcset="images/home/home3.webp">
+          <source media="(min-width: 560px)" srcset="images/home/home2.webp">          
+          <img src="images/home/home1.webp" alt="Action call" />
+          <!-- <img src="https://via.placeholder.com/500X300" alt="Action call" /> -->
+        </picture>
         <a href="join.html" class="custom-a">Join the chamber</a>
       </section>
       <section class="event">
@@ -128,19 +134,21 @@
       <section class="spotlights">
         <div class="spotlight">
           <h3>Thankful Transport</h3>
-          <img
+          <iframe src="images/home/01transporte.svg" frameborder="0"></iframe>
+          <!-- <img
             src="https://via.placeholder.com/150x150"
             alt="Spotlight 1 image"
-          />
+          /> -->
           <p>"We get it there for you!"</p>
           <p class="spotlight-contact">transport@acoc.com.ar<br />5555-1234</p>
         </div>
         <div class="spotlight">
           <h3>Code Primera</h3>
-          <img
+          <iframe src="images/home/01education.svg" frameborder="0"></iframe>
+          <!-- <img
             src="https://via.placeholder.com/150x150"
             alt="Spotlight 2 image"
-          />
+          /> -->
           <p>An after school coding instructional program.</p>
           <p class="spotlight-contact">
             codeprimera@acoc.com.ar<br />5555-2345
@@ -148,10 +156,11 @@
         </div>
         <div class="spotlight spotlight3">
           <h3>Build A Treefort</h3>
-          <img
+          <iframe src="images/home/01tree.svg" frameborder="0"></iframe>
+          <!-- <img
             src="https://via.placeholder.com/150x150"
             alt="Spotlight 3 image"
-          />
+          /> -->
           <p>Over 1000 Plans!</p>
           <p class="spotlight-contact">treefort@acoc.com.ar<br />5555-3456</p>
         </div>
