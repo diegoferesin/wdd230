@@ -1,0 +1,1696 @@
+{
+  "temples": [
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng",
+      "name": "Aba Nigeria Temple",
+      "location": "Aba, Abia, Nigeria",
+      "dedicated": "7 August 2005"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/abidjan-ivory-coast-temple?lang=eng",
+      "name": "Abidjan Ivory Coast Temple",
+      "location": "Abidjan, Ivory Coast",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple?lang=eng",
+      "name": "Accra Ghana Temple",
+      "location": "Accra, Greater Accra, Ghana",
+      "dedicated": "11 January 2004"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/adelaide-australia-temple?lang=eng",
+      "name": "Adelaide Australia Temple",
+      "location": "Marden, South Australia, Australia",
+      "dedicated": "15 June 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/alabang-philippines-temple?lang=eng",
+      "name": "Alabang Philippines Temple",
+      "location": "Manila, Philippines",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/albuquerque-new-mexico-temple?lang=eng",
+      "name": "Albuquerque New Mexico Temple",
+      "location": "Albuquerque, New Mexico, United States",
+      "dedicated": "5 March 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/anchorage-alaska-temple?lang=eng",
+      "name": "Anchorage Alaska Temple",
+      "location": "Anchorage, Alaska, United States",
+      "dedicated": "9 January 1999"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/antananarivo-madagascar-temple?lang=eng",
+      "name": "Antananarivo Madagascar Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/antofagasta-chile-temple?lang=eng",
+      "name": "Antofagasta Chile Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/apia-samoa-temple?lang=eng",
+      "name": "Apia Samoa Temple",
+      "location": "Apia, Pesega, Samoa",
+      "dedicated": "5 August 1983"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/arequipa-peru-temple?lang=eng",
+      "name": "Arequipa Peru Temple ",
+      "location": "Arequipa, Peru",
+      "dedicated": "15 December 2019"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/asuncion-paraguay-temple?lang=eng",
+      "name": "Asunción Paraguay Temple",
+      "location": "Asunción, Alto Paraguay, Paraguay",
+      "dedicated": "19 May 2002"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/atlanta-georgia-temple?lang=eng",
+      "name": "Atlanta Georgia Temple ",
+      "location": "Sandy Springs, Georgia, United States",
+      "dedicated": "1 June 1983"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/auckland-new-zealand-temple?lang=eng",
+      "name": "Auckland New Zealand Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/austin-texas-temple?lang=eng",
+      "name": "Austin Texas Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/bacolod-philippines-temple?lang=eng",
+      "name": "Bacolod Philippines Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/bahia-blanca-argentina-temple?lang=eng",
+      "name": "Bahía Blanca Argentina Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/bangkok-thailand-temple?lang=eng",
+      "name": "Bangkok Thailand Temple",
+      "location": "Bangkok, Thailand",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/barcelona-spain-temple?lang=eng",
+      "name": "Barcelona Spain Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/barranquilla-colombia-temple?lang=eng",
+      "name": "Barranquilla Colombia Temple",
+      "location": "Barranquilla, Colombia",
+      "dedicated": "9 December 2018"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/baton-rouge-louisiana-temple?lang=eng",
+      "name": "Baton Rouge Louisiana Temple",
+      "location": "Baton Rouge, Louisiana, United States",
+      "dedicated": "16 July 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/beira-mozambique-temple?lang=eng",
+      "name": "Beira Mozambique Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/belem-brazil-temple?lang=eng",
+      "name": "Belém Brazil Temple ",
+      "location": "Belém Brazil",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/belo-horizonte-brazil-temple?lang=eng",
+      "name": "Belo Horizonte Brazil Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/bengaluru-india-temple?lang=eng",
+      "name": "Bengaluru India Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/benin-city-nigeria-temple?lang=eng",
+      "name": "Benin City Nigeria Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/bentonville-arkansas-temple?lang=eng",
+      "name": "Bentonville Arkansas Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/bern-switzerland-temple?lang=eng",
+      "name": "Bern Switzerland Temple ",
+      "location": "Zollikofen, Bern, Switzerland",
+      "dedicated": "11 September 1955"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/billings-montana-temple?lang=eng",
+      "name": "Billings Montana Temple",
+      "location": "Billings, Montana, United States",
+      "dedicated": "20 November 1999"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/birmingham-alabama-temple?lang=eng",
+      "name": "Birmingham Alabama Temple",
+      "location": "Gardendale, Alabama, United States",
+      "dedicated": "3 September 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/birmingham-united-kingdom-temple?lang=eng",
+      "name": "Birmingham United Kingdom Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/bismarck-north-dakota-temple?lang=eng",
+      "name": "Bismarck North Dakota Temple",
+      "location": "Bismarck, North Dakota, United States",
+      "dedicated": "19 September 1999"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/bogota-colombia-temple?lang=eng",
+      "name": "Bogotá Colombia Temple ",
+      "location": "Bogotá, Distrito Capital, Colombia",
+      "dedicated": "24 April 1999"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng",
+      "name": "Boise Idaho Temple",
+      "location": "Boise, Idaho, United States",
+      "dedicated": "25 May 1984"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/boston-massachusetts-temple?lang=eng",
+      "name": "Boston Massachusetts Temple",
+      "location": "Belmont, Massachusetts, United States",
+      "dedicated": "1 October 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/bountiful-utah-temple?lang=eng",
+      "name": "Bountiful Utah Temple",
+      "location": "Bountiful, Utah, United States",
+      "dedicated": "8 January 1995"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/brasilia-brazil-temple?lang=eng",
+      "name": "Brasília Brazil Temple",
+      "location": "Brasilia, Brazil",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/brazzaville-republic-of-the-congo-temple?lang=eng",
+      "name": "Brazzaville Republic of the Congo Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/brigham-city-utah-temple?lang=eng",
+      "name": "Brigham City Utah Temple",
+      "location": "Brigham City, Utah, United States",
+      "dedicated": "23 September 2012"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/brisbane-australia-temple?lang=eng",
+      "name": "Brisbane Australia Temple",
+      "location": "Kangaroo Point, Queensland, Australia",
+      "dedicated": "15 June 2003"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/brussels-belgium-temple?lang=eng",
+      "name": "Brussels Belgium Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/budapest-hungary-temple?lang=eng",
+      "name": "Budapest Hungary Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/buenos-aires-argentina-temple?lang=eng",
+      "name": "Buenos Aires Argentina Temple",
+      "location": "Ciudad Evita, Buenos Aires, Argentina",
+      "dedicated": "17 January 1986"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/burley-idaho-temple?lang=eng",
+      "name": "Burley Idaho Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/cagayan-de-oro-philippines-temple?lang=eng",
+      "name": "Cagayan de Oro Philippines Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/calgary-alberta-temple?lang=eng",
+      "name": "Calgary Alberta Temple ",
+      "location": "Calgary, Alberta, Canada",
+      "dedicated": "28 October 2012"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/cali-colombia-temple?lang=eng",
+      "name": "Cali Colombia Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/campinas-brazil-temple?lang=eng",
+      "name": "Campinas Brazil Temple",
+      "location": "Campinas, Sao Paulo, Brazil",
+      "dedicated": "17 May 2002"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/cape-town-south-africa-temple?lang=eng",
+      "name": "Cape Town South Africa Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/caracas-venezuela-temple?lang=eng",
+      "name": "Caracas Venezuela Temple",
+      "location": "Caracas, Dependencias Federales, Venezuela",
+      "dedicated": "20 August 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/cardston-alberta-temple?lang=eng",
+      "name": "Cardston Alberta Temple",
+      "location": "Cardston, Alberta, Canada",
+      "dedicated": "26 August 1923"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/casper-wyoming-temple?lang=eng",
+      "name": "Casper Wyoming Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/cebu-city-philippines-temple?lang=eng",
+      "name": "Cebu City Philippines Temple",
+      "location": "Cebu City, Cebu, Philippines",
+      "dedicated": "13 June 2010"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/cedar-city-utah-temple?lang=eng",
+      "name": "Cedar City Utah Temple ",
+      "location": "Cedar City, Utah, United States",
+      "dedicated": "10 December 2017"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/chicago-illinois-temple?lang=eng",
+      "name": "Chicago Illinois Temple",
+      "location": "Glenview, Illinois, United States",
+      "dedicated": "9 August 1985"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/ciudad-juarez-mexico-temple?lang=eng",
+      "name": "Ciudad Juárez Mexico Temple",
+      "location": "Ciudad Juárez, Chihuahua, Mexico",
+      "dedicated": "26 February 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/cleveland-ohio-temple?lang=eng",
+      "name": "Cleveland Ohio Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/coban-guatemala-temple?lang=eng",
+      "name": "Cobán Guatemala Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/cochabamba-bolivia-temple?lang=eng",
+      "name": "Cochabamba Bolivia Temple",
+      "location": "Alto Queru Queru, Cochabamba, Bolivia",
+      "dedicated": "30 April 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/cody-wyoming-temple?lang=eng",
+      "name": "Cody Wyoming Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/colonia-juarez-chihuahua-mexico-temple?lang=eng",
+      "name": "Colonia Juárez Chihuahua Mexico Temple ",
+      "location": "Colonia Juárez, Chihuahua, Mexico",
+      "dedicated": "6 March 1999"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/columbia-river-washington-temple?lang=eng",
+      "name": "Columbia River Washington Temple",
+      "location": "Richland, Washington, United States",
+      "dedicated": "18 November 2001"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/columbia-south-carolina-temple?lang=eng",
+      "name": "Columbia South Carolina Temple",
+      "location": "Hopkins, South Carolina, United States",
+      "dedicated": "16 October 1999"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/columbus-ohio-temple?lang=eng",
+      "name": "Columbus Ohio Temple ",
+      "location": "Columbus, Ohio, United States",
+      "dedicated": "Renovation"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/concepcion-chile-temple?lang=eng",
+      "name": "Concepción Chile Temple",
+      "location": "Concepcion, Chile",
+      "dedicated": "28 October 2018"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/copenhagen-denmark-temple?lang=eng",
+      "name": "Copenhagen Denmark Temple",
+      "location": "Frederiksberg, Hovedstaden, Denmark",
+      "dedicated": "23 May 2004"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/cordoba-argentina-temple?lang=eng",
+      "name": "Córdoba Argentina Temple",
+      "location": "Córdoba, Argentina",
+      "dedicated": "17 May 2015"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/culiacan-mexico-temple?lang=eng",
+      "name": "Culiacan Mexico Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/curitiba-brazil-temple?lang=eng",
+      "name": "Curitiba Brazil Temple",
+      "location": "Curitiba, Parana, Brazil",
+      "dedicated": "1 June 2008"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/cusco-peru-temple?lang=eng",
+      "name": "Cusco Peru Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/dallas-texas-temple?lang=eng",
+      "name": "Dallas Texas Temple ",
+      "location": "Dallas, Texas, United States",
+      "dedicated": "19 October 1984"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/davao-philippines-temple?lang=eng",
+      "name": "Davao Philippines Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/denver-colorado-temple?lang=eng",
+      "name": "Denver Colorado Temple ",
+      "location": "Centennial, Colorado, United States",
+      "dedicated": "24 October 1986"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/deseret-peak-utah-temple?lang=eng",
+      "name": "Deseret Peak Utah Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/detroit-michigan-temple?lang=eng",
+      "name": "Detroit Michigan Temple",
+      "location": "Bloomfield Hills, Michigan, United States",
+      "dedicated": "23 October 1999"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/draper-utah-temple?lang=eng",
+      "name": "Draper Utah Temple",
+      "location": "Draper, Utah, United States",
+      "dedicated": "20 March 2009"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/dubai-united-arab-emirates-temple?lang=eng",
+      "name": "Dubai United Arab Emirates Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/durban-south-africa-temple?lang=eng",
+      "name": "Durban South Africa Temple",
+      "location": "Durban, South Africa",
+      "dedicated": "16 February 2020"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/edmonton-alberta-temple?lang=eng",
+      "name": "Edmonton Alberta Temple",
+      "location": "Edmonton, Alberta, Canada",
+      "dedicated": "11 December 1999"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/elko-nevada-temple?lang=eng",
+      "name": "Elko Nevada Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/ephraim-utah-temple?lang=eng",
+      "name": "Ephraim Utah Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/farmington-new-mexico-temple?lang=eng",
+      "name": "Farmington New Mexico Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/feather-river-california-temple?lang=eng",
+      "name": "Feather River California Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/fort-collins-colorado-temple?lang=eng",
+      "name": "Fort Collins Colorado Temple",
+      "location": "Fort Collins, Colorado, United States",
+      "dedicated": "16 October 2016"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/fort-lauderdale-florida-temple?lang=eng",
+      "name": "Fort Lauderdale Florida Temple",
+      "location": "Davie, Florida, United States",
+      "dedicated": "4 May 2014"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/fort-worth-texas-temple?lang=eng",
+      "name": "Fort Worth Texas Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/fortaleza-brazil-temple?lang=eng",
+      "name": "Fortaleza Brazil Temple",
+      "location": "Fortaleza, Ceará, Brazil",
+      "dedicated": "2 June 2019"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/frankfurt-germany-temple?lang=eng",
+      "name": "Frankfurt Germany Temple",
+      "location": "Friedrichsdorf, Hessen, Germany",
+      "dedicated": "28 August 1987"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/freetown-sierra-leone-temple?lang=eng",
+      "name": "Freetown Sierra Leone Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/freiberg-germany-temple?lang=eng",
+      "name": "Freiberg Germany Temple",
+      "location": "Freiberg, Sachsen, Germany",
+      "dedicated": "29 June 1985"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/fresno-california-temple?lang=eng",
+      "name": "Fresno California Temple",
+      "location": "Fresno, California, United States",
+      "dedicated": "9 April 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/fukuoka-japan-temple?lang=eng",
+      "name": "Fukuoka Japan Temple ",
+      "location": "Fukuoka-shi, Fukuoka, Japan",
+      "dedicated": "11 June 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/gilbert-arizona-temple?lang=eng",
+      "name": "Gilbert Arizona Temple ",
+      "location": "Gilbert, Arizona, United States",
+      "dedicated": "2 March 2014"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/grand-junction-colorado-temple?lang=eng",
+      "name": "Grand Junction Colorado Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/guadalajara-mexico-temple?lang=eng",
+      "name": "Guadalajara Mexico Temple",
+      "location": "Zapopan, Jalisco, Mexico",
+      "dedicated": "29 April 2001"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/guatemala-city-guatemala-temple?lang=eng",
+      "name": "Guatemala City Guatemala Temple",
+      "location": "Guatemala City, Guatemala, Guatemala",
+      "dedicated": "14 December 1984"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/guayaquil-ecuador-temple?lang=eng",
+      "name": "Guayaquil Ecuador Temple",
+      "location": "Guayaquil, Guayas, Ecuador",
+      "dedicated": "1 August 1999"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/halifax-nova-scotia-temple?lang=eng",
+      "name": "Halifax Nova Scotia Temple",
+      "location": "Dartmouth, Nova Scotia, Canada",
+      "dedicated": "14 November 1999"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/hamilton-new-zealand-temple?lang=eng",
+      "name": "Hamilton New Zealand Temple",
+      "location": "Hamilton, Auckland, New Zealand",
+      "dedicated": "Renovation"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/harare-zimbabwe-temple?lang=eng",
+      "name": "Harare Zimbabwe Temple ",
+      "location": "Harare, Zimbabwe",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/hartford-connecticut-temple?lang=eng",
+      "name": "Hartford Connecticut Temple",
+      "location": "Farmington, Connecticut, United States",
+      "dedicated": "20 November 2016"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/heber-valley-utah-temple?lang=eng",
+      "name": "Heber Valley Utah Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/helena-montana-temple?lang=eng",
+      "name": "Helena Montana Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/helsinki-finland-temple?lang=eng",
+      "name": "Helsinki Finland Temple",
+      "location": "Espoo, Uusimaa, Finland",
+      "dedicated": "22 October 2006"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/hermosillo-sonora-mexico-temple?lang=eng",
+      "name": "Hermosillo Sonora Mexico Temple",
+      "location": "Hermosillo, Sonora, Mexico",
+      "dedicated": "27 February 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/hong-kong-china-temple?lang=eng",
+      "name": "Hong Kong China Temple ",
+      "location": "Kowloon Tong, Kowloon City, Hong Kong",
+      "dedicated": "26 May 1996"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/houston-texas-temple?lang=eng",
+      "name": "Houston Texas Temple ",
+      "location": "Spring, Texas, United States",
+      "dedicated": "26 August 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/idaho-falls-idaho-temple?lang=eng",
+      "name": "Idaho Falls Idaho Temple ",
+      "location": "Idaho Falls, Idaho, United States",
+      "dedicated": "23 September 1945"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/indianapolis-indiana-temple?lang=eng",
+      "name": "Indianapolis Indiana Temple",
+      "location": "Carmel, Indiana, United States",
+      "dedicated": "23 August 2015"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/johannesburg-south-africa-temple?lang=eng",
+      "name": "Johannesburg South Africa Temple",
+      "location": "Johannesburg, Gauteng, South Africa",
+      "dedicated": "24 August 1985"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/jordan-river-utah-temple?lang=eng",
+      "name": "Jordan River Utah Temple",
+      "location": "South Jordan, Utah, United States",
+      "dedicated": "16 November 1981"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/kananga-democratic-republic-of-the-congo-temple?lang=eng",
+      "name": "Kananga Democratic Republic of the Congo Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/kansas-city-missouri-temple?lang=eng",
+      "name": "Kansas City Missouri Temple",
+      "location": "Kansas City, Missouri, United States",
+      "dedicated": "6 May 2012"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/kaohsiung-taiwan-temple?lang=eng",
+      "name": "Kaohsiung Taiwan Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/kinshasa-democratic-republic-of-the-congo-temple?lang=eng",
+      "name": "Kinshasa Democratic Republic of the Congo Temple",
+      "location": "Kinshasa, Democratic Republic of the Congo",
+      "dedicated": "14 April 2019"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/knoxville-tennessee-temple?lang=eng",
+      "name": "Knoxville Tennessee Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/kona-hawaii-temple?lang=eng",
+      "name": "Kona Hawaii Temple",
+      "location": "Kailua-Kona, Hawaii, United States",
+      "dedicated": "23 January 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/kumasi-ghana-temple?lang=eng",
+      "name": "Kumasi Ghana Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/kyiv-ukraine-temple?lang=eng",
+      "name": "Kyiv Ukraine Temple ",
+      "location": "Kyevo-Sviatoshyns’ky Rayon, Kyiv, Ukraine",
+      "dedicated": "29 August 2010"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/la-paz-bolivia-temple?lang=eng",
+      "name": "La Paz Bolivia Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/lagos-nigeria-temple?lang=eng",
+      "name": "Lagos Nigeria Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/laie-hawaii-temple?lang=eng",
+      "name": "Laie Hawaii Temple",
+      "location": "Laie, Hawaii, United States",
+      "dedicated": "27 November 1919"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/las-vegas-nevada-temple?lang=eng",
+      "name": "Las Vegas Nevada Temple ",
+      "location": "Las Vegas, Nevada, United States",
+      "dedicated": "16 December 1989"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/layton-utah-temple?lang=eng",
+      "name": "Layton Utah Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/lima-peru-los-olivos-temple?lang=eng",
+      "name": "Lima Peru Los Olivos Temple",
+      "location": "Los Olivos, Lima, Peru",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/lima-peru-temple?lang=eng",
+      "name": "Lima Peru Temple",
+      "location": "La Molina, Lima, Peru",
+      "dedicated": "10 January 1986"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/lindon-utah-temple?lang=eng",
+      "name": "Lindon Utah Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/lisbon-portugal-temple?lang=eng",
+      "name": "Lisbon Portugal Temple ",
+      "location": "Lisbon, Portugal",
+      "dedicated": "15 September 2019"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/logan-utah-temple?lang=eng",
+      "name": "Logan Utah Temple",
+      "location": "Logan, Utah, United States",
+      "dedicated": "17 May 1884"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/london-england-temple?lang=eng",
+      "name": "London England Temple ",
+      "location": "Newchapel, Surrey, England",
+      "dedicated": "7 September 1958"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/los-angeles-california-temple?lang=eng",
+      "name": "Los Angeles California Temple",
+      "location": "Los Angeles, California, United States",
+      "dedicated": "11 March 1956"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/louisville-kentucky-temple?lang=eng",
+      "name": "Louisville Kentucky Temple",
+      "location": "Crestwood, Kentucky, United States",
+      "dedicated": "19 March 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/lubbock-texas-temple?lang=eng",
+      "name": "Lubbock Texas Temple ",
+      "location": "Lubbock, Texas, United States",
+      "dedicated": "21 April 2002"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/lubumbashi-democratic-republic-of-the-congo-temple?lang=eng",
+      "name": "Lubumbashi Democratic Republic of the Congo Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/maceio-brazil-temple?lang=eng",
+      "name": "Maceió Brazil Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/madrid-spain-temple?lang=eng",
+      "name": "Madrid Spain Temple ",
+      "location": "Madrid, Madrid, Spain",
+      "dedicated": "19 March 1999"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/managua-nicaragua-temple?lang=eng",
+      "name": "Managua Nicaragua Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/manaus-brazil-temple?lang=eng",
+      "name": "Manaus Brazil Temple ",
+      "location": "Manaus, Amazonas, Brazil",
+      "dedicated": "10 June 2012"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/manhattan-new-york-temple?lang=eng",
+      "name": "Manhattan New York Temple",
+      "location": "New York, New York, United States",
+      "dedicated": "13 June 2004"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/manila-philippines-temple?lang=eng",
+      "name": "Manila Philippines Temple",
+      "location": "Quezon City, Metro Manila, Philippines",
+      "dedicated": "25 September 1984"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/manti-utah-temple?lang=eng",
+      "name": "Manti Utah Temple",
+      "location": "Manti, Utah, United States",
+      "dedicated": "Renovation"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/mcallen-texas-temple?lang=eng",
+      "name": "McAllen Texas Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/medford-oregon-temple?lang=eng",
+      "name": "Medford Oregon Temple ",
+      "location": "Central Point, Oregon, United States",
+      "dedicated": "16 April 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/melbourne-australia-temple?lang=eng",
+      "name": "Melbourne Australia Temple",
+      "location": "Wantirna South, Victoria, Australia",
+      "dedicated": "16 June 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/memphis-tennessee-temple?lang=eng",
+      "name": "Memphis Tennessee Temple",
+      "location": "Bartlett, Tennessee, United States",
+      "dedicated": "23 April 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/mendoza-argentina-temple?lang=eng",
+      "name": "Mendoza Argentina Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/merida-mexico-temple?lang=eng",
+      "name": "Mérida Mexico Temple ",
+      "location": "Mérida, Yucatan, Mexico",
+      "dedicated": "8 July 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/meridian-idaho-temple?lang=eng",
+      "name": "Meridian Idaho Temple ",
+      "location": "Meridian, Idaho, United States",
+      "dedicated": "19 November 2017"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/mesa-arizona-temple?lang=eng",
+      "name": "Mesa Arizona Temple ",
+      "location": "Mesa, Arizona, United States",
+      "dedicated": "23 October 1927"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/mexico-city-benemerito-mexico-temple?lang=eng",
+      "name": "Mexico City Benemérito Mexico Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/mexico-city-mexico-temple?lang=eng",
+      "name": "Mexico City Mexico Temple",
+      "location": "México, Distrito Federal, Mexico",
+      "dedicated": "2 December 1983"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/miraflores-guatemala-city-guatemala-temple?lang=eng",
+      "name": "Miraflores Guatemala City Guatemala Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/missoula-montana-temple?lang=eng",
+      "name": "Missoula Montana Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/modesto-california-temple?lang=eng",
+      "name": "Modesto California Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/monrovia-liberia-temple?lang=eng",
+      "name": "Monrovia Liberia Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/monterrey-mexico-temple?lang=eng",
+      "name": "Monterrey Mexico Temple",
+      "location": "Monterrey, Nuevo Leon, Mexico",
+      "dedicated": "28 April 2002"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/montevideo-uruguay-temple?lang=eng",
+      "name": "Montevideo Uruguay Temple",
+      "location": "Carrasco, Montevideo, Uruguay",
+      "dedicated": "18 March 2001"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/monticello-utah-temple?lang=eng",
+      "name": "Monticello Utah Temple",
+      "location": "Monticello, Utah, United States",
+      "dedicated": "26 July 1998"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/montpelier-idaho-temple?lang=eng",
+      "name": "Montpelier Idaho Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/montreal-quebec-temple?lang=eng",
+      "name": "Montreal Quebec Temple",
+      "location": "Longueuil, Quebec, Canada",
+      "dedicated": "4 June 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/moses-lake-washington-temple?lang=eng",
+      "name": "Moses Lake Washington Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/mount-timpanogos-utah-temple?lang=eng",
+      "name": "Mount Timpanogos Utah Temple",
+      "location": "American Fork, Utah, United States",
+      "dedicated": "13 October 1996"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/nairobi-kenya-temple?lang=eng",
+      "name": "Nairobi Kenya Temple ",
+      "location": "Nairobi, Kenya",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/nashville-tennessee-temple?lang=eng",
+      "name": "Nashville Tennessee Temple",
+      "location": "Franklin, Tennessee, United States",
+      "dedicated": "21 May 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/nauvoo-illinois-temple?lang=eng",
+      "name": "Nauvoo Illinois Temple ",
+      "location": "Nauvoo, Illinois, United States",
+      "dedicated": "27 June 2002"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/neiafu-tonga-temple?lang=eng",
+      "name": "Neiafu Tonga Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/newport-beach-california-temple?lang=eng",
+      "name": "Newport Beach California Temple",
+      "location": "Newport Beach, California, United States",
+      "dedicated": "28 August 2005"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/nuku'alofa-tonga-temple?lang=eng",
+      "name": "Nuku'alofa Tonga Temple",
+      "location": "Liahona, Tongatapu, Tonga",
+      "dedicated": "9 August 1983"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/oakland-california-temple?lang=eng",
+      "name": "Oakland California Temple",
+      "location": "Oakland, California, United States",
+      "dedicated": "17 November 1964"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/oaxaca-mexico-temple?lang=eng",
+      "name": "Oaxaca Mexico Temple ",
+      "location": "Oaxaca, Oaxaca, Mexico",
+      "dedicated": "11 March 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/ogden-utah-temple?lang=eng",
+      "name": "Ogden Utah Temple",
+      "location": "Ogden, Utah, United States",
+      "dedicated": "18 January 1972"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/okinawa-japan-temple?lang=eng",
+      "name": "Okinawa Japan Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/oklahoma-city-oklahoma-temple?lang=eng",
+      "name": "Oklahoma City Oklahoma Temple",
+      "location": "Yukon, Oklahoma, United States",
+      "dedicated": "30 July 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/oquirrh-mountain-utah-temple?lang=eng",
+      "name": "Oquirrh Mountain Utah Temple",
+      "location": "South Jordan, Utah, United States",
+      "dedicated": "21 August 2009"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/orem-utah-temple?lang=eng",
+      "name": "Orem Utah Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/orlando-florida-temple?lang=eng",
+      "name": "Orlando Florida Temple ",
+      "location": "Windermere, Florida, United States",
+      "dedicated": "9 October 1994"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/oslo-norway-temple?lang=eng",
+      "name": "Oslo Norway Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/pago-pago-american-samoa-temple?lang=eng",
+      "name": "Pago Pago American Samoa Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/palmyra-new-york-temple?lang=eng",
+      "name": "Palmyra New York Temple",
+      "location": "Palmyra, New York, United States",
+      "dedicated": "6 April 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/panama-city-panama-temple?lang=eng",
+      "name": "Panama City Panama Temple",
+      "location": "Corozal, Ancon, Panamá, Panama",
+      "dedicated": "10 August 2008"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/papeete-tahiti-temple?lang=eng",
+      "name": "Papeete Tahiti Temple ",
+      "location": "Papeete, Tahiti, French Polynesia",
+      "dedicated": "27 October 1983"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/paris-france-temple?lang=eng",
+      "name": "Paris France Temple ",
+      "location": "Le Chesnay, France",
+      "dedicated": "21 May 2017"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/payson-utah-temple?lang=eng",
+      "name": "Payson Utah Temple",
+      "location": "Payson, Utah, United States",
+      "dedicated": "7 June 2015"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/perth-australia-temple?lang=eng",
+      "name": "Perth Australia Temple ",
+      "location": "Yokine, Western Australia, Australia",
+      "dedicated": "20 May 2001"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/philadelphia-pennsylvania-temple?lang=eng",
+      "name": "Philadelphia Pennsylvania Temple",
+      "location": "Philadelphia, Pennsylvania, United States",
+      "dedicated": "18 September 2016"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/phnom-penh-cambodia-temple?lang=eng",
+      "name": "Phnom Penh Cambodia Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/phoenix-arizona-temple?lang=eng",
+      "name": "Phoenix Arizona Temple ",
+      "location": "Phoenix, Arizona, United States",
+      "dedicated": "16 November 2014"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/pittsburgh-pennsylvania-temple?lang=eng",
+      "name": "Pittsburgh Pennsylvania Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/pocatello-idaho-temple?lang=eng",
+      "name": "Pocatello Idaho Temple",
+      "location": "Pocatello, Idaho, United States",
+      "dedicated": "7 November 2021"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/port-moresby-papua-new-guinea-temple?lang=eng",
+      "name": "Port Moresby Papua New Guinea Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/port-vila-vanuatu-temple?lang=eng",
+      "name": "Port Vila Vanuatu Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/port-au-prince-haiti-temple?lang=eng",
+      "name": "Port-au-Prince Haiti Temple",
+      "location": "Port-au-Prince, Haiti",
+      "dedicated": "1 September 2019"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/portland-oregon-temple?lang=eng",
+      "name": "Portland Oregon Temple",
+      "location": "Lake Oswego, Oregon, United States",
+      "dedicated": "19 August 1989"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/porto-alegre-brazil-temple?lang=eng",
+      "name": "Porto Alegre Brazil Temple",
+      "location": "Porto Alegre, Rio Grande do Sul, Brazil",
+      "dedicated": "17 December 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/praia-cape-verde-temple?lang=eng",
+      "name": "Praia Cape Verde Temple ",
+      "location": "Praia, Cape Verde",
+      "dedicated": "19 June 2022"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/preston-england-temple?lang=eng",
+      "name": "Preston England Temple ",
+      "location": "Chorley, Lancashire, England",
+      "dedicated": "7 June 1998"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/provo-city-center-temple?lang=eng",
+      "name": "Provo City Center Temple ",
+      "location": "Provo, Utah, United States",
+      "dedicated": "20 March 2016"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/provo-utah-temple?lang=eng",
+      "name": "Provo Utah Temple",
+      "location": "Provo, Utah, United States",
+      "dedicated": "9 February 1972"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/puebla-mexico-temple?lang=eng",
+      "name": "Puebla Mexico Temple ",
+      "location": "Puebla, Puebla, Mexico",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/queretaro-mexico-temple?lang=eng",
+      "name": "Querétaro Mexico Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/quetzaltenango-guatemala-temple?lang=eng",
+      "name": "Quetzaltenango Guatemala Temple",
+      "location": "Quetzaltenango, Quezaltenango, Guatemala",
+      "dedicated": "11 December 2011"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/quito-ecuador-temple?lang=eng",
+      "name": "Quito Ecuador Temple ",
+      "location": "Quito, Equador",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/raleigh-north-carolina-temple?lang=eng",
+      "name": "Raleigh North Carolina Temple",
+      "location": "Apex, North Carolina, United States",
+      "dedicated": "18 December 1999"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/recife-brazil-temple?lang=eng",
+      "name": "Recife Brazil Temple ",
+      "location": "Recife, Pernambuco, Brazil",
+      "dedicated": "15 December 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/red-cliffs-utah-temple?lang=eng",
+      "name": "Red Cliffs Utah Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/redlands-california-temple?lang=eng",
+      "name": "Redlands California Temple",
+      "location": "Redlands, California, United States",
+      "dedicated": "14 September 2003"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/regina-saskatchewan-temple?lang=eng",
+      "name": "Regina Saskatchewan Temple",
+      "location": "Regina, Saskatchewan, Canada",
+      "dedicated": "14 November 1999"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/reno-nevada-temple?lang=eng",
+      "name": "Reno Nevada Temple",
+      "location": "Reno, Nevada, United States",
+      "dedicated": "23 April 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/rexburg-idaho-temple?lang=eng",
+      "name": "Rexburg Idaho Temple ",
+      "location": "Rexburg, Idaho, United States",
+      "dedicated": "10 February 2008"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/richmond-virginia-temple?lang=eng",
+      "name": "Richmond Virginia Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/rio-de-janeiro-brazil-temple?lang=eng",
+      "name": "Rio de Janeiro Brazil Temple",
+      "location": "Rio de Janeiro, Brazil",
+      "dedicated": "8 May 2022"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/rome-italy-temple?lang=eng",
+      "name": "Rome Italy Temple",
+      "location": "Rome, Roma, Italy",
+      "dedicated": "10 March 2019"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/russia-temple?lang=eng",
+      "name": "Russia Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/sacramento-california-temple?lang=eng",
+      "name": "Sacramento California Temple",
+      "location": "Rancho Cordova, California, United States",
+      "dedicated": "3 September 2006"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng",
+      "name": "Salt Lake Temple",
+      "location": "Salt Lake City, Utah, United States",
+      "dedicated": "Renovation"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/salta-argentina-temple?lang=eng",
+      "name": "Salta Argentina Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/salvador-brazil-temple?lang=eng",
+      "name": "Salvador Brazil Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/san-antonio-texas-temple?lang=eng",
+      "name": "San Antonio Texas Temple ",
+      "location": "San Antonio, Texas, United States",
+      "dedicated": "22 May 2005"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/san-diego-california-temple?lang=eng",
+      "name": "San Diego California Temple",
+      "location": "San Diego, California, United States",
+      "dedicated": "25 April 1993"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/san-jose-costa-rica-temple?lang=eng",
+      "name": "San José Costa Rica Temple ",
+      "location": "Belén, Heredia, Costa Rica",
+      "dedicated": "4 June 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/san-juan-puerto-rico-temple?lang=eng",
+      "name": "San Juan Puerto Rico Temple",
+      "location": "San Juan, Puerto Rico",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/san-luis-potosi-mexico-temple?lang=eng",
+      "name": "San Luis Potosí Mexico Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/san-pedro-sula-honduras-temple?lang=eng",
+      "name": "San Pedro Sula Honduras Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/san-salvador-el-salvador-temple?lang=eng",
+      "name": "San Salvador El Salvador Temple",
+      "location": "Antiguo Cuscatlán, La Libertad, El Salvador",
+      "dedicated": "21 August 2011"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/santa-cruz-bolivia-temple?lang=eng",
+      "name": "Santa Cruz Bolivia Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/santiago-chile-temple?lang=eng",
+      "name": "Santiago Chile Temple ",
+      "location": "Providencia, Santiago, Chile",
+      "dedicated": "15 September 1983"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/santiago-west-chile-temple?lang=eng",
+      "name": "Santiago West Chile Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/santo-domingo-dominican-republic-temple?lang=eng",
+      "name": "Santo Domingo Dominican Republic Temple ",
+      "location": "Santo Domingo, Distrito Nacional, Dominican Republic",
+      "dedicated": "17 September 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/santos-brazil-temple?lang=eng",
+      "name": "Santos Brazil Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/sao-paulo-brazil-temple?lang=eng",
+      "name": "São Paulo Brazil Temple ",
+      "location": "São Paulo, Sao Paulo, Brazil",
+      "dedicated": "30 October 1978"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/sao-paulo-east-brazil-temple?lang=eng",
+      "name": "São Paulo East Brazil Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/sapporo-japan-temple?lang=eng",
+      "name": "Sapporo Japan Temple ",
+      "location": "Atsubetsu-ku Sapporo, Hokkaido, Japan",
+      "dedicated": "21 August 2016"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/saratoga-springs-utah-temple?lang=eng",
+      "name": "Saratoga Springs Utah Temple",
+      "location": "Saratoga Springs, Utah, United States",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng",
+      "name": "Seattle Washington Temple",
+      "location": "Bellevue, Washington, United States",
+      "dedicated": "17 November 1980"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/seoul-korea-temple?lang=eng",
+      "name": "Seoul Korea Temple",
+      "location": "Seoul, Seoul-teukbyeolsi, South Korea",
+      "dedicated": "14 December 1985"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/shanghai-people’s-republic-of-china-temple?lang=eng",
+      "name": "Shanghai People’s Republic of China Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/singapore-republic-of-singapore-temple?lang=eng",
+      "name": "Singapore Republic of Singapore Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/smithfield-utah-temple?lang=eng",
+      "name": "Smithfield Utah Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/snowflake-arizona-temple?lang=eng",
+      "name": "Snowflake Arizona Temple",
+      "location": "Snowflake, Arizona, United States",
+      "dedicated": "3 March 2002"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/spokane-washington-temple?lang=eng",
+      "name": "Spokane Washington Temple",
+      "location": "Spokane, Washington, United States",
+      "dedicated": "21 August 1999"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/st.-george-utah-temple?lang=eng",
+      "name": "St. George Utah Temple ",
+      "location": "St. George, Utah, United States",
+      "dedicated": "Renovation"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/st.-louis-missouri-temple?lang=eng",
+      "name": "St. Louis Missouri Temple ",
+      "location": "St. Louis, Missouri, United States",
+      "dedicated": "1 June 1997"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/st.-paul-minnesota-temple?lang=eng",
+      "name": "St. Paul Minnesota Temple ",
+      "location": "Oakdale, Minnesota, United States",
+      "dedicated": "9 January 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/star-valley-wyoming-temple?lang=eng",
+      "name": "Star Valley Wyoming Temple",
+      "location": "Afton, Wyoming, United States",
+      "dedicated": "30 October 2016"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/stockholm-sweden-temple?lang=eng",
+      "name": "Stockholm Sweden Temple",
+      "location": "Vasterhaninge, Sweden",
+      "dedicated": "2 July 1985"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/suva-fiji-temple?lang=eng",
+      "name": "Suva Fiji Temple",
+      "location": "Samabula, Suva, Fiji",
+      "dedicated": "18 June 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/sydney-australia-temple?lang=eng",
+      "name": "Sydney Australia Temple ",
+      "location": "Carlingford, New South Wales, Australia",
+      "dedicated": "20 September 1984"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/syracuse-utah-temple?lang=eng",
+      "name": "Syracuse Utah Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/tacloban-city-philippines-temple?lang=eng",
+      "name": "Tacloban City Philippines Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/taipei-taiwan-temple?lang=eng",
+      "name": "Taipei Taiwan Temple ",
+      "location": "Taipei, Taipei, Taiwan",
+      "dedicated": "17 November 1984"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/tallahassee-florida-temple?lang=eng",
+      "name": "Tallahassee Florida Temple",
+      "location": "Location Not Available",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/tampa-florida-temple?lang=eng",
+      "name": "Tampa Florida Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/tampico-mexico-temple?lang=eng",
+      "name": "Tampico Mexico Temple ",
+      "location": "Ciudad Madero, Tamaulipas, Mexico",
+      "dedicated": "20 May 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/tarawa-kiribati-temple?lang=eng",
+      "name": "Tarawa Kiribati Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/taylorsville-utah-temple?lang=eng",
+      "name": "Taylorsville Utah Temple",
+      "location": "Taylorsville, Utah, United States",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/tegucigalpa-honduras-temple?lang=eng",
+      "name": "Tegucigalpa Honduras Temple",
+      "location": "Comayagüela, Francisco Morazán, Honduras",
+      "dedicated": "17 March 2013"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/teton-river-idaho-temple?lang=eng",
+      "name": "Teton River Idaho Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/the-gila-valley-arizona-temple?lang=eng",
+      "name": "The Gila Valley Arizona Temple",
+      "location": "Central, Arizona, United States",
+      "dedicated": "23 May 2010"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/the-hague-netherlands-temple?lang=eng",
+      "name": "The Hague Netherlands Temple",
+      "location": "Zoetermeer, Zuid-Holland, Netherlands",
+      "dedicated": "8 September 2002"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/tijuana-mexico-temple?lang=eng",
+      "name": "Tijuana Mexico Temple ",
+      "location": "Tijuana, Baja California, Mexico",
+      "dedicated": "13 December 2015"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/tokyo-japan-temple?lang=eng",
+      "name": "Tokyo Japan Temple",
+      "location": "Minato-ku, Tokyo, Japan",
+      "dedicated": "27 October 1980"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/toronto-ontario-temple?lang=eng",
+      "name": "Toronto Ontario Temple ",
+      "location": "Brampton, Ontario, Canada",
+      "dedicated": "25 August 1990"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/torreon-mexico-temple?lang=eng",
+      "name": "Torreón Mexico Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/trujillo-peru-temple?lang=eng",
+      "name": "Trujillo Peru Temple ",
+      "location": "Trujillo, La Libertad, Peru",
+      "dedicated": "21 June 2015"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/tucson-arizona-temple?lang=eng",
+      "name": "Tucson Arizona Temple ",
+      "location": "Tucson, Arizona, United States",
+      "dedicated": "13 August 2017"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/tuxtla-gutierrez-mexico-temple?lang=eng",
+      "name": "Tuxtla Gutiérrez Mexico Temple",
+      "location": "Tuxtla Gutiérrez, Chiapas, Mexico",
+      "dedicated": "12 March 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/twin-falls-idaho-temple?lang=eng",
+      "name": "Twin Falls Idaho Temple ",
+      "location": "Twin Falls, Idaho, United States",
+      "dedicated": "24 August 2008"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/urdaneta-philippines-temple?lang=eng",
+      "name": "Urdaneta Philippines Temple",
+      "location": "Urdaneta, Pangasinan, Philippines",
+      "dedicated": "Construction"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/vancouver-british-columbia-temple?lang=eng",
+      "name": "Vancouver British Columbia Temple",
+      "location": "Langley, British Columbia, Canada",
+      "dedicated": "2 May 2010"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/veracruz-mexico-temple?lang=eng",
+      "name": "Veracruz Mexico Temple",
+      "location": "Boca del Rio, Veracruz, Mexico",
+      "dedicated": "9 July 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/vernal-utah-temple?lang=eng",
+      "name": "Vernal Utah Temple",
+      "location": "Vernal, Utah, United States",
+      "dedicated": "2 November 1997"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/vienna-austria-temple?lang=eng",
+      "name": "Vienna Austria Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/villahermosa-mexico-temple?lang=eng",
+      "name": "Villahermosa Mexico Temple",
+      "location": "Villahermosa, Tabasco, Mexico",
+      "dedicated": "21 May 2000"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/vitoria-brazil-temple?lang=eng",
+      "name": "Vitória Brazil Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
+      "name": "Washington D.C. Temple",
+      "location": "Kensington, Maryland, United States",
+      "dedicated": "Renovation"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/wellington-new-zealand-temple?lang=eng",
+      "name": "Wellington New Zealand Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/wichita-kansas-temple?lang=eng",
+      "name": "Wichita Kansas Temple ",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/willamette-valley-oregon-temple?lang=eng",
+      "name": "Willamette Valley Oregon Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/winnipeg-manitoba-temple?lang=eng",
+      "name": "Winnipeg Manitoba Temple",
+      "location": "Winnipeg, Manitoba, Canada",
+      "dedicated": "31 October 2021"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/winter-quarters-nebraska-temple?lang=eng",
+      "name": "Winter Quarters Nebraska Temple",
+      "location": "Omaha, Nebraska, United States",
+      "dedicated": "22 April 2001"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/yigo-guam-temple?lang=eng",
+      "name": "Yigo Guam Temple",
+      "location": "Yigo, Guam",
+      "dedicated": "22 May 2022"
+    },
+    {
+      "details": "https://www.churchofjesuschrist.org/temples/details/yorba-linda-california-temple?lang=eng",
+      "name": "Yorba Linda California Temple",
+      "location": "Location Not Available",
+      "dedicated": "Announced"
+    }
+  ]
+}
