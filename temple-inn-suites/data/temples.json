@@ -1,4 +1,5 @@
 {
+  "update":"07/14/2022",
   "temples": [
     {
       "details": "https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng",
@@ -1692,6 +1693,5 @@
       "location": "Location Not Available",
       "dedicated": "Announced"
     }
-  ],
-  "update":"07/14/2022"
+  ]
 }
