@@ -1,13 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="The Temple Inn & Suites official site" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Home - The Temple Inn & Suites</title>
 </head>
+
 <body>
-    <span class="temples"></span>
-    <script src="js/index.js"></script>
+    <header>
+        <div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.webp" alt="The Temple Inn & Suites Logo" />
+                </a>
+            </div>
+            <nav>
+                <ul class="primary-nav">
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"
+                        alt="Facebook logo" /></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png"
+                        alt="Linkedin logo" /></a>
+            </div>
+            <button id="hamburger-button">
+                <span>&#9776;</span><span>X</span>
+            </button>
+        </div>
+        <ul id="hamburger-nav">
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        <div class="general-info">
+            <div class="footer-logo">
+                <img src="images/logo.jpeg" alt="The Temple Inn & Suites Logo" />
+                <section class="footer-headings">
+                    <h4>The Temple Inn & Suites</h4>
+                    <p>Av. Leandro N. Alem 36 - C1003AAN</p>
+                    <p>Buenos Aires - Argentina</p>
+                </section>
+            </div>
+            <div class="footer-info">
+                <p>info@acoc.com</p>
+                <p>+5411 - 4547 - 4645</p>
+                <a href="https://www.google.com.ar/maps/dir//C%C3%A1mara+Argentina+de+Comercio,+1003,+Av.+Leandro+N.+Alem+36,+C1003AAN+CABA/@-34.6152008,-58.4056832,14z/data=!4m9!4m8!1m0!1m5!1m1!1s0x95a3352cde5aaa3b:0x8f92d6a50eb9ec0!2m2!1d-58.3704212!2d-34.6066422!3e0"
+                    target="_blank" class="custom-a">📍 Location Map</a>
+            </div>
+        </div>
+        <hr />
+        <div class="small-copyright">
+            <p>
+                &copy; <span id="small-copyright-year"></span> Argentine Chamber of
+                Commerce Project
+            </p>
+            <p>Diego Feresin</p>
+            <p>WDD 230 Project</p>
+            <p>Last Updated: <span id="small-last-updated"></span></p>
+        </div>
+        <p class="medium-copyright">
+            &copy; <span id="medium-copyright-year"></span> Argentine Chamber of
+            Commerce | Diego Feresin | WDD 230 Project | Last Updated:
+            <span id="medium-last-updated"></span>
+        </p>
+    </footer>
 </body>
+
 </html>
