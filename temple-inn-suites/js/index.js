@@ -2,26 +2,30 @@ function toggleMenu() {
     document.getElementById("hamburger-nav").classList.toggle("open");
     document.getElementById("hamburger-button").classList.toggle("open");
 }
+
 const hamburgerBtn = document.getElementById("hamburger-button");
 hamburgerBtn.onclick = toggleMenu;
 
 
-
-let temples = document.querySelector('#temples');
 const urlTemples = "https://diegoferesin.github.io/wdd230/temple-inn-suites/data/temples.json";
-const file = "./data/temples.json"
+
+
+let templesElem = document.querySelector('#temples');
+let temples = getTemplesData();
 
 async function getTemplesData() {
     let templesData = [];
     try {
-        const response = await fetch(file);
+        const response = await fetch(urlTemples);
         if (response.ok) {
             const temples = await response.json();
             temples["temples"].forEach(e => {
                 templesData.push(e);
             });
-            console.log(getRandomTempleInfo(templesData));
-            return getRandomTempleInfo(templesData);
+            // console.log(getRandomTempleInfo(templesData));
+            templesData = getRandomTempleInfo(templesData);
+            return buildTempleImages(templesData);
+            // return getRandomTempleInfo(templesData);
         } else {
             throw Error(await response.text());
         }
@@ -62,4 +66,30 @@ function getRandomIndex(templesArray) {
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
-getTemplesData();
+function buildTempleImages(temples) {
+    const firstTemple = temples[0]
+    let wrapper = document.createElement('div');
+    let detailsElem = document.createElement('a');
+    detailsElem.setAttribute('target', '_blank');
+    detailsElem.setAttribute('href', firstTemple.details);
+    detailsElem.innerHTML = 'MORE INFO';
+    let nameElem = document.createElement('h3');
+    nameElem.innerHTML = firstTemple.name;
+    let locationElem = document.createElement('p');
+    locationElem.innerHTML = 'Location: ' + firstTemple.location;
+    let dedicatedElem = document.createElement('p');
+    dedicatedElem.innerHTML = 'Dedicated: ' + firstTemple.dedicated;
+    let imgElem = document.createElement('img');
+    imgElem.setAttribute('alt', firstTemple.alt); 
+    imgElem.setAttribute('src', firstTemple.src[0]);
+    imgElem.setAttribute('srcset', firstTemple.srcset[0]);
+    imgElem.setAttribute('title', firstTemple.title);
+
+    wrapper.appendChild(imgElem);
+    wrapper.appendChild(nameElem);
+    wrapper.appendChild(locationElem);
+    wrapper.appendChild(dedicatedElem);    
+    wrapper.appendChild(detailsElem);
+
+    templesElem.appendChild(wrapper);
+}
