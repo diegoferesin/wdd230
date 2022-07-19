@@ -103,6 +103,7 @@ function buildSlider(dataTemples) {
     }
   });
   
+  dataTemples = getMultipleRandom(dataTemples, 5);
   let sliderDivElem = document.querySelector("#slider");
   let figureElem = document.createElement("figure");
   dataTemples.forEach((temple) => {
@@ -113,5 +114,12 @@ function buildSlider(dataTemples) {
     imgElem.setAttribute("title", temple.title);
     figureElem.appendChild(imgElem);
   });
+
   sliderDivElem.appendChild(figureElem);
+}
+
+
+function getMultipleRandom(arr, num) {
+  const shuffled = [...arr].sort(() => 0.5 - Math.random());
+  return shuffled.slice(0, num);
 }
