@@ -69,6 +69,7 @@ let templesElem = document.querySelector("#temples");
 function buildTempleImages(temples) {
   const firstTemple = temples[0];
   let wrapper = document.createElement("div");
+  wrapper.setAttribute('class','wrapper');
   let detailsElem = document.createElement("a");
   detailsElem.setAttribute("target", "_blank");
   detailsElem.setAttribute("href", firstTemple.details);
@@ -109,7 +110,7 @@ function buildSlider(dataTemples) {
   dataTemples.forEach((temple) => {
     let imgElem = document.createElement("img");
     imgElem.setAttribute("alt", temple.alt);
-    imgElem.setAttribute("src", temple.src[0]);
+    imgElem.setAttribute("src", (temple.srcset.length - 1));
     imgElem.setAttribute("srcset", temple.srcset[0]);
     imgElem.setAttribute("title", temple.title);
     figureElem.appendChild(imgElem);

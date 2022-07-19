@@ -72,7 +72,7 @@ header {
   color: var(--color-blue-09193b);
   background: rgba(255, 255, 255, 0.7);
   /* background: var(--gradient-primary) */
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 footer {
@@ -182,4 +182,30 @@ div#slider figure {
 
 .logo-home {
   max-width: 50px;
+}
+
+.wrapper{
+  position: absolute;
+}
+
+.wrapper h3,
+.wrapper p,
+.wrapper a,
+.wrapper img {
+  position: relative;
+}
+
+.wrapper h3 {
+  top: 50px;
+  left: 50px;
+}
+
+.wrapper p {
+  top: 100px;
+  left: 100px;
+}
+
+.wrapper a {
+  top: 150px;
+  left: 150px;
 }
