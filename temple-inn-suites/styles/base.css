@@ -1,13 +1,13 @@
 :root {
+  --font: "";
 }
 
 * {
   box-sizing: border-box;
-  font-family: var(--title-font);
+  font-family: var(--font);
 }
 
 body {
-  margin: 8px;
   background-image: linear-gradient(to bottom right, #00c0ff, #4218b8);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -29,16 +29,16 @@ nav ul,
   display: none;
   list-style-type: none;
   padding: 0;
-  border-top: 1px solid var(--my-blue-color);
+  border-top: 1px solid red;
 }
 
 nav ul li a,
 #hamburger-nav a {
-  color: var(--my-blue-color);
+  color: red;
   display: block;
   text-decoration: none;
   padding: 1rem;
-  border-bottom: 1px solid var(--my-blue-color);
+  border-bottom: 1px solid red;
   transition: 0.5s;
 }
 
@@ -52,7 +52,7 @@ footer {
 header {
   background-image: linear-gradient(
     -225deg,
-    var(--my-blue-color) 0%,
+    red 0%,
     rgb(33, 236, 175) 48%,
     rgb(95, 234, 76) 100%
   );
@@ -63,7 +63,7 @@ footer {
     -225deg,
     rgb(80, 179, 67) 0%,
     rgb(32, 173, 131) 48%,
-    var(--my-blue-color) 100%
+    blue 100%
   );
   margin-top: 0.7em;
 }
@@ -96,8 +96,8 @@ footer h4 {
 header button {
   color: white;
   font-size: 2rem;
-  background-color: var(--my-blue-color);
-  border: 1px solid var(--my-blue-color);
+  background-color: red;
+  border: 1px solid red;
 }
 
 #hamburger-nav {
@@ -122,6 +122,27 @@ header button {
   display: block;
 }
 
-fieldset {
-  width: 95%;
-}
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+  }
+  
+  body { margin: 0; } 
+  div#slider { overflow: hidden; }
+  div#slider figure img { width: 20%; float: left; }
+  div#slider figure { 
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite; 
+  }
